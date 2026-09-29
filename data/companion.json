@@ -1,0 +1,1539 @@
+[
+  {
+    "id": "legendary_companion",
+    "type": ["고양이", "기계"],
+    "size": "대형",
+    "name": "캣머신",
+    "image": "assets/companion/legendary/c.4-1.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "캣머신이(가) 7.5초마다 고양이 광선 스킬을 시전합니다."
+      },
+      {
+        "effect": "고양이 광선 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "고양이 광선 스킬의 피해 계수가 2000% 증가합니다."
+      },
+      {
+        "effect": "감전 효과가 부여된 대상이 고양이 광선 스킬에 받는 피해가 500% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "고양이 광선 스킬의 최종 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "고양이 광선 스킬의 최종 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["디저트", "음식"],
+    "size": "중형",
+    "name": "피코",
+    "image": "assets/companion/legendary/c.4-4.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "디저트 타입 스킬의 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "디저트 타입 스킬의 스킬 피해 증폭이 700% 증가합니다."
+      },
+      {
+        "effect": "초콜릿 분수 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "초콜릿 분수로 강화된 스킬 피해량이 15000% 추가로 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "초콜릿 분수로 강화된 스킬 피해량이 390000% 추가로 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["음식", "디저트"],
+    "size": "소형",
+    "name": "아이스베리",
+    "image": "assets/companion/legendary/c.4-5.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "파티 타임 스킬의 지속시간이 90% 증가합니다."
+      },
+      {
+        "effect": "파티 타임 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "장착한 음식 동료 하나 당 치명타로 입히는 피해가 1000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "파티 타임 지속시간 동안 음식 타입 스킬의 피해량이 14000% 추가로 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "파티 타임 지속시간 동안 음식 타입 스킬의 피해량이 364000% 추가로 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["디저트", "음식"],
+    "size": "소형",
+    "name": "츄리",
+    "image": "assets/companion/legendary/c.4-6.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "츄리이(가) 7.5초마다 사탕 굴러가요 스킬을 시전합니다."
+      },
+      {
+        "effect": "디저트 타입 스킬 적중 시 30% 확률로 파열 효과를 부여하여 5초동안 대상이 입는 피해가 300% 증가합니다."
+      },
+      {
+        "effect": "사탕 굴러가요 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "디저트 타입 스킬의 피해계수가 700% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "파열 효과에 걸린 대상의 받는 피해량이 추가로 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "파열 효과에 걸린 대상의 받는 피해량이 추가로 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["디저트", "음식"],
+    "size": "중형",
+    "name": "바빵",
+    "image": "assets/companion/legendary/c.4-7.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "바빵이(가) 3.5초마다 빵 폭발 스킬을 시전합니다."
+      },
+      {
+        "effect": "빵 폭발 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "빵 폭발 스킬의 피해계수가 2000% 증가합니다."
+      },
+      {
+        "effect": "파열 효과가 부여된 대상이 받는 피해가 추가로 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "빵 폭발 스킬의 피해량이 추가로 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "빵 폭발 스킬의 피해량이 추가로 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["늑대", "기계"],
+    "size": "대형",
+    "name": "루나스틸",
+    "image": "assets/companion/legendary/c.4-8.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "늑대 타입 스킬의 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "장착한 기계 동료 하나 당 치명타로 입히는 피해가 1000% 증가합니다."
+      },
+      {
+        "effect": "달의 분노 스킬의 지속시간동안 늑대 타입의 스킬이 입히는 피해량이 500% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "달의 분노로 초기화된 스킬의 피해량과 버프 수치가 추가로 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "달의 분노로 초기화된 스킬의 피해량과 버프 수치가 추가로 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["기계", "늑대"],
+    "size": "중형",
+    "name": "워울프",
+    "image": "assets/companion/legendary/c.4-9.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "보름달 스킬 시전 시 워울프이(가) 거대 늑대로 변하고 공격이 강화됩니다. 강화된 공격은 대상을 관통하며 공포 효과를 부여하여 3초동안 대상이 입는 피해가 500% 증가합니다."
+      },
+      {
+        "effect": "늑대 타입 스킬의 피해계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "화난다! 스킬의 지속시간이 90% 증가합니다."
+      },
+      {
+        "effect": "보름달 스킬의 재사용 대기시간이 90% 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "상태이상에 걸린 대상에 15000%의 추가 피해를 입힙니다. (상태이상: 감전, 공포, 실명)"
+    },
+    "awaken+10": {
+      "effect": "상태이상에 걸린 대상에 390000%의 추가 피해를 입힙니다. (상태이상: 감전, 공포, 실명)"
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["그림자", "늑대"],
+    "size": "중형",
+    "name": "루카온",
+    "image": "assets/companion/legendary/c.4-10.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "늑대 타입 스킬의 피해계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "그림자 혼식 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "그림자 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "그림자 혼식 스킬의 효과 계수가 14000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "그림자 혼식 스킬의 효과 계수가 364000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["고래", "동물", "해적"],
+    "size": "대형",
+    "name": "잭도우",
+    "image": "assets/companion/legendary/c.4-11.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "잭도우이(가) 8.1초마다 고래 함선 스킬을 시전합니다."
+      },
+      {
+        "effect": "고래 함선 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "고래 함선 스킬의 피해 계수가 2000% 증가합니다."
+      },
+      {
+        "effect": "감전 효과가 부여된 대상이 고래 함선 스킬에 받는 피해가 500% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "고래 함선 스킬의 최종 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "고래 함선 스킬의 최종 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["해적", "마법", "용"],
+    "size": "중형",
+    "name": "잭플라이",
+    "image": "assets/companion/legendary/c.4-12.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "잭플라이이(가) 9.4초마다 녹턴 소환 스킬을 시전합니다."
+      },
+      {
+        "effect": "녹턴 소환 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "해적 타입 스킬의 피해 계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "공포 효과가 부여된 대상이 해적 타입 스킬에 받는 피해가 200% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "공포 상태의 대상에 15000%의 추가 피해를 입힙니다."
+    },
+    "awaken+10": {
+      "effect": "공포 상태의 대상에 390000%의 추가 피해를 입힙니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["용", "마법"],
+    "size": "중형",
+    "name": "스타링",
+    "image": "assets/companion/legendary/c.4-13.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "스타링이(가) 7.5초마다 블랙홀 스킬을 시전합니다."
+      },
+      {
+        "effect": "모든 스킬의 피해가 1000% 추가로 증가합니다."
+      },
+      {
+        "effect": "감전 효과가 부여된 대상이 받는 피해가 추가로 300% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "감전 상태의 대상에 15000%의 추가 피해를 입힙니다."
+    },
+    "awaken+10": {
+      "effect": "감전 상태의 대상에 390000%의 추가 피해를 입힙니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["고양이", "기계"],
+    "size": "중형",
+    "name": "캣블랙",
+    "image": "assets/companion/legendary/c.4-14.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "고양이 광선 스킬 시전 시 융단폭격을 발동해 스킬 피해량의 200% 피해를 입히는 미사일 10개를 발사합니다."
+      },
+      {
+        "effect": "고양이 타입 스킬의 스킬 피해 증폭이 700% 증가합니다."
+      },
+      {
+        "effect": "고양이 광선 스킬의 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "융단폭격 적중 시 대상의 HP가 20% 이하면 처형시킵니다."
+      }
+    ],
+    "awaken": {
+      "effect": "감전 상태의 대상에 15000%의 추가 피해를 입힙니다."
+    },
+    "awaken+10": {
+      "effect": "감전 상태의 대상에 390000%의 추가 피해를 입힙니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["음식"],
+    "size": "대형",
+    "name": "샌드위치 백작",
+    "image": "assets/companion/legendary/c.4-15.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "전설 이하 음식 타입 스킬 시전 시 한번 더 사용합니다. 한번 더 사용한 스킬은 스킬 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "음식 타입 스킬의 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "음식 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "상태이상 효과가 부여된 대상에게 음식 타입 스킬이 입히는 피해가 15000% 추가로 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "상태이상 효과가 부여된 대상에게 음식 타입 스킬이 입히는 피해가 390000% 추가로 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["음식", "매콤"],
+    "size": "대형",
+    "name": "핫덕셰프",
+    "image": "assets/companion/legendary/c.4-16.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "핫도그 난타 스킬 발동 시 핫도그가 4개 더 소환됩니다."
+      },
+      {
+        "effect": "핫도그 난타 스킬의 피해 계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "핫도그 난타 스킬의 재사용 대기시간이 90% 감소합니다."
+      },
+      {
+        "effect": "공포 효과가 부여된 대상에게 핫도그 난타 스킬이 입히는 피해량이 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "핫도그 난타 스킬의 최종 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "핫도그 난타 스킬의 최종 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["음식", "매콤"],
+    "size": "대형",
+    "name": "핫페퍼",
+    "image": "assets/companion/legendary/c.4-17.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "장착한 매콤 동료 하나 당 치명타로 입히는 피해가 300% 증가합니다."
+      },
+      {
+        "effect": "토핑 폭격 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "토핑 폭격 발동 시 떨어지는 양이 7 증가합니다."
+      },
+      {
+        "effect": "상태이상 효과가 부여된 대상이 음식 타입 스킬에 받는 피해가 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "토핑 폭격이 디버프를 부여할 확률이 80% 증가하며 디버프의 모든 능력치가 130% 증폭됩니다."
+    },
+    "awaken+10": {
+      "effect": "토핑 폭격이 디버프를 부여할 확률이 80% 증가하며 디버프의 모든 능력치가 3380% 증폭됩니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["동물", "늑대"],
+    "size": "소형",
+    "name": "그롬",
+    "image": "assets/companion/legendary/c.4-18.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "하울링 스킬의 지속시간이 90% 증가합니다."
+      },
+      {
+        "effect": "늑대 타입 스킬의 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "하울링 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "장착한 늑대 동료 하나 당 치명타로 입히는 피해가 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "하울링 스킬의 효과 계수가 12500% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "하울링 스킬의 효과 계수가 325000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["늑대", "동물"],
+    "size": "중형",
+    "name": "블레이즈",
+    "image": "assets/companion/legendary/c.4-19.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "늑대 타입 스킬의 피해계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "화난다! 스킬의 지속시간이 90% 증가합니다."
+      },
+      {
+        "effect": "혼의 울림 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "혼의 울림 스킬의 지속시간 동안 늑대 타입 스킬의 치명타 피해량이 추가로 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "혼의 울림 스킬의 지속시간 동안 늑대 타입 스킬의 피해량이 추가로 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "혼의 울림 스킬의 지속시간 동안 늑대 타입 스킬의 피해량이 추가로 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["해적", "동물", "상어"],
+    "size": "대형",
+    "name": "잭 스트라이커",
+    "image": "assets/companion/legendary/c.4-20.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "해적 타입 스킬의 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "해적 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "바다의 처형 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "바다의 처형 스킬의 표식 데미지가 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "바다의 처형 스킬의 표식 데미지가 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["고양이", "기계", "구름"],
+    "size": "중형",
+    "name": "클라우디",
+    "image": "assets/companion/legendary/c.4-21.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "구름 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "레이저 소환 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "기계 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "구름, 기계 타입 스킬의 데미지를 15000% 강화합니다."
+    },
+    "awaken+10": {
+      "effect": "구름, 기계 타입 스킬의 데미지를 390000% 강화합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["동물", "고양이", "마법", "구름"],
+    "size": "중형",
+    "name": "로로",
+    "image": "assets/companion/legendary/c.4-22.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "터치번개가 치명타로 적중 시 강화된 터치번개가 발사되어 최대 3번 튕기며 추가로 1000% 피해를 입힙니다."
+      },
+      {
+        "effect": "기본 공격 시 60% 확률로 터치공격이 발동됩니다."
+      },
+      {
+        "effect": "강화된 터치번개 적중 시 30% 확률로 공포 효과를 부여하여 3초동안 대상이 입는 피해가 300% 증가합니다."
+      },
+      {
+        "effect": "공포 효과가 부여된 대상이 받는 피해가 추가로 140% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "상태이상에 걸린 대상에 15000%의 추가 피해를 입힙니다. (상태이상: 감전, 공포, 실명)"
+    },
+    "awaken+10": {
+      "effect": "상태이상에 걸린 대상에 390000%의 추가 피해를 입힙니다. (상태이상: 감전, 공포, 실명)"
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["해적", "동물", "고양이"],
+    "size": "중형",
+    "name": "잭타이거",
+    "image": "assets/companion/legendary/c.4-23.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "해적 표식 스킬의 해적 표식이 10회 추가로 유지됩니다."
+      },
+      {
+        "effect": "해적 표식 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "고양이 타입 스킬의 피해량이 700% 증가합니다."
+      },
+      {
+        "effect": "해적 타입 스킬의 피해량이 700% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "해적 표식 스킬의 추가 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "해적 표식 스킬의 추가 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["동물", "고양이", "구름", "마법"],
+    "size": "대형",
+    "name": "룰루",
+    "image": "assets/companion/legendary/c.4-24.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "장착한 구름 동료 하나 당 치명타로 입히는 피해가 1000% 증가합니다."
+      },
+      {
+        "effect": "캣 히어로즈 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "고양이 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "캣 히어로즈 스킬의 최종 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "캣 히어로즈 스킬의 최종 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["고양이", "그림자"],
+    "size": "중형",
+    "name": "베스퍼",
+    "image": "assets/companion/legendary/c.4-25.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "그림자 타입 스킬의 피해 계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "그림자 타입 스킬의 피해량이 700% 증가합니다."
+      },
+      {
+        "effect": "사신의 계약 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "사신의 계약 스킬의 지속시간동안 그림자 타입 스킬의 치명타 피해량이 추가로 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "사신의 계약 스킬의 지속시간동안 그림자 타입의 스킬 피해량이 추가로 4500% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "사신의 계약 스킬의 지속시간동안 그림자 타입의 스킬 피해량이 추가로 117000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["고양이", "그림자"],
+    "size": "중형",
+    "name": "크로우",
+    "image": "assets/companion/legendary/c.4-26.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "장착한 그림자 동료 하나 당 치명타로 입히는 피해가 1000% 증가합니다."
+      },
+      {
+        "effect": "그림자 일격 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "그림자 타입 스킬의 스킬 피해 증폭이 1000% 증가합니다."
+      },
+      {
+        "effect": "그림자 일격 스킬이 치명타로 적중 시 100% 확률로 침식 효과를 부여하여 3초동안 대상이 입는 피해가 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "침식 효과의 대상에게 입히는 피해가 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "침식 효과의 대상에게 입히는 피해가 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["늑대", "동물"],
+    "size": "대형",
+    "name": "웨어울프",
+    "image": "assets/companion/legendary/c.4-27.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "늑대 타입 동료가 기본 공격 시 40% 확률로 할퀴기 스킬이 발동합니다."
+      },
+      {
+        "effect": "할퀴기 스킬이 3번 더 공격합니다."
+      },
+      {
+        "effect": "할퀴기 스킬의 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "늑대 타입 스킬의 피해 증폭이 1000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "할퀴기 스킬의 최종 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "할퀴기 스킬의 최종 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["상어", "기계", "해적"],
+    "size": "중형",
+    "name": "블랙핀",
+    "image": "assets/companion/legendary/c.4-28.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "상어 타입 스킬의 피해량이 1000% 증가합니다."
+      },
+      {
+        "effect": "포식자의 낙인 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "초토화 로켓 스킬 시전 시 30% 확률로 특제 상어 미사일을 추가로 발사하여 스킬피해량의 1000% 피해를 입힙니다. 모든 특제 상어 미사일은 적을 감전시켜 적이 입는 피해량을 300% 증가시킵니다."
+      },
+      {
+        "effect": "감전 효과가 부여된 대상이 초토화 로켓 스킬에 받는 피해가 500% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "초토화 로켓 스킬의 최종 피해량이 15000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "초토화 로켓 스킬의 최종 피해량이 390000% 증가합니다."
+    }
+  },
+  {
+    "id": "legendary_companion",
+    "type": ["해적", "상어", "기계"],
+    "size": "중형",
+    "name": "잭조스",
+    "image": "assets/companion/legendary/c.4-29.png",
+    "grade": "legendary",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "초토화 로켓 스킬 시전시 30% 확률로 특제 상어 미사일을 추가로 발사하여 스킬 피해량의 1000% 피해를 입힙니다."
+      },
+      {
+        "effect": "해적 타입 스킬의 피해 계수가 700% 증가합니다."
+      },
+      {
+        "effect": "초토화 로켓 스킬의 피해 계수가 1000% 증가합니다."
+      },
+      {
+        "effect": "특제 상어 미사일을 추가로 4회 발사합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "실명 상태의 대상에 15000%의 추가 피해를 입힙니다."
+    },
+    "awaken+10": {
+      "effect": "실명 상태의 대상에 390000%의 추가 피해를 입힙니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["디저트", "음식"],
+    "size": "대형",
+    "name": "코송",
+    "image": "assets/companion/mythic/c.5-1.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "디저트 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "코송의 기본공격은 100% 확률로 적에게 공포효과를 부여하여 3초동안 대상이 입는 피해량을 4000% 증가시킵니다."
+      },
+      {
+        "effect": "메론빵 블레이드 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "[헤롱] 디버프 대상이 디저트 타입에게 받는 피해량이 180000% 추가로 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "[헤롱] 디버프 대상이 디저트 타입에게 받는 피해량이 4680000% 추가로 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "디저트", "음식"],
+    "size": "대형",
+    "name": "아멜리",
+    "image": "assets/companion/mythic/c.5-2.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "매콤한 저주 스킬이 달콤한 저주로 변경됩니다. 달콤한 저주의 달콤 효과에 걸린 적이 받는 피해량이 4000% 추가로 증가합니다."
+      },
+      {
+        "effect": "디저트 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "상태이상 효과가 부여된 대상에게 음식 타입 스킬이 입히는 피해가 4000% 추가로 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "디저트 타입 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "디저트 타입 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["음식", "매콤", "닭"],
+    "size": "대형",
+    "name": "보안관 잭",
+    "image": "assets/companion/mythic/c.5-3.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "매콤 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "상태이상 효과가 부여된 대상에게 음식 타입 스킬이 입히는 피해가 2000% 추가로 증가합니다."
+      },
+      {
+        "effect": "불사조 소환 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "불사조 소환 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "불사조 소환 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "고래", "동물", "해적"],
+    "size": "대형",
+    "name": "잭블루",
+    "image": "assets/companion/mythic/c.5-4.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'고래 총공격' 스킬이 '해일의 고래 총공격'으로 변경됩니다. 해일의 고래 총공격의 피해량이 4000% 증가됩니다."
+      },
+      {
+        "effect": "잭블루의 기본 공격은 100% 확률로 적에게 공포 효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "'바다의 처형' 스킬이 '고래의 처형'으로 변경됩니다. 고래의 처형 추가 피해량이 4000% 증가됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "고래 총공격 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "고래 총공격 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["동물", "고래", "해적"],
+    "size": "대형",
+    "name": "잭모어",
+    "image": "assets/companion/mythic/c.5-5.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "고래 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "고래 총공격의 바다 폭풍은 적중한 적을 감전시켜 5초 동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "고래 총공격 스킬의 재사용 대시기간이 90% 감소됩니다."
+      },
+      {
+        "effect": "고래 총공격의 소리 파동은 적을 파열시켜 5초 동안 대상의 공격력을 90% 감소시킵니다."
+      }
+    ],
+    "awaken": {
+      "effect": "고래 총공격 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "고래 총공격 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고양이", "그림자"],
+    "size": "대형",
+    "name": "아카네코",
+    "image": "assets/companion/mythic/c.5-7.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "종말의 탄환 스킬의 추가 탄환이 사격마다 30배로 더 강해집니다."
+      },
+      {
+        "effect": "아카네코의 기본공격은 100% 확률로 적에게 실명 효과를 부여하여 5초동안 대상의 공격력을 90% 감소시킵니다."
+      },
+      {
+        "effect": "종말의 탄환 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "실명 효과의 대상에게 그림자 타입 스킬이 입히는 피해가 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "종말의 탄환 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "종말의 탄환 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "그림자", "고양이"],
+    "size": "대형",
+    "name": "이블리스",
+    "image": "assets/companion/mythic/c.5-8.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'캣 히어로즈' 스킬이 '다크 이클립스'로 변경됩니다. 다크 이클립스의 추가 피해량이 2000% 증가됩니다."
+      },
+      {
+        "effect": "그림자 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "이블리스의 기본공격은 100% 확률로 적에게 감전 효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "다크 이클립스 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "다크 이클립스 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "음식", "매콤", "용"],
+    "size": "대형",
+    "name": "파이로스",
+    "image": "assets/companion/mythic/c.5-9.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'불사조 소환' 스킬이 '레드 드래곤 소환'로 변경됩니다. 레드 드래곤 소환 추가 피해량이 4000% 증가됩니다."
+      },
+      {
+        "effect": "매콤 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "파이로스의 기본공격은 100% 확률로 적에게 공포 효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "'레드 드래곤 소환'의 폭발 피해량이 180000% 증가됩니다."
+    },
+    "awaken+10": {
+      "effect": "'레드 드래곤 소환'의 폭발 피해량이 4680000% 증가됩니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["매콤", "음식"],
+    "size": "대형",
+    "name": "페페",
+    "image": "assets/companion/mythic/c.5-10.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "음식 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "페페의 기본공격은 100% 확률로 적에게 실명 효과를 부여하여 5초동안 대상의 공격력을 90% 감소시킵니다."
+      },
+      {
+        "effect": "매콤한 저주 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "실명 효과의 대상에게 음식 타입 스킬이 입히는 피해가 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "음식 타입 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "음식 타입 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "늑대"],
+    "size": "대형",
+    "name": "럭스",
+    "image": "assets/companion/mythic/c.5-11.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'할퀴기' 스킬이 '늑대 영혼 소환' 스킬로 변경되고 늑대 영혼은 적에게 돌진하여 할퀴기 데미지의 20000% 데미지를 입힙니다."
+      },
+      {
+        "effect": "늑대 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "야성본능의 늑대 치명타 피해량이 2000% 추가로 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "늑대 영혼 소환 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "늑대 영혼 소환 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "고양이", "구름"],
+    "size": "대형",
+    "name": "쿠무루",
+    "image": "assets/companion/mythic/c.5-12.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'캣 히어로즈' 스킬이 '천상의 구름'으로 변경됩니다. 천상의 구름 추가 피해량이 2000% 증가됩니다. "
+      },
+      {
+        "effect": "구름 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "쿠무루의 기본공격은 100% 확률로 적에게 감전 효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "천상의 구름 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "천상의 구름 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["동물", "고양이", "구름", "마법"],
+    "size": "대형",
+    "name": "오라클",
+    "image": "assets/companion/mythic/c.5-13.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "룰루와 함께 장착 시 하나의 구름에 함께 올라타 모든 고양이 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "오라클의 기본 공격은 100% 확률로 적에게 실명 효과르 부여하여 5초동안 대상의 공격력을 90% 감소시킵니다."
+      },
+      {
+        "effect": "고양이 신선 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "실명 효과의 대상에게 고양이 타입 스킬이 입히는 피해가 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "고양이 타입 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "고양이 타입 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고래", "동물", "해적"],
+    "size": "대형",
+    "name": "벨루나",
+    "image": "assets/companion/mythic/c.5-14.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "고래 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "벨루나의 가호 지속시간 중 받는 피해량이 90% 감소합니다."
+      },
+      {
+        "effect": "벨루나의 가호 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "벨루나의 가호 스킬의 지속시간동안 고래 타입의 스킬이 입히는 피해량이 추가로 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "벨루나의 가호 스킬의 지속시간 동안 고래 타입 스킬의 최종 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "벨루나의 가호 스킬의 지속시간 동안 고래 타입 스킬의 최종 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고양이", "기계"],
+    "size": "대형",
+    "name": "테론",
+    "image": "assets/companion/mythic/c.5-15.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "장착한 고양이 동료당 고양이, 기계 타입 스킬 데미지가 추가로 2000% 증가합니다."
+      },
+      {
+        "effect": "고양이, 기계 타입 스킬을 4회 사용하면 미사일을 추가로 발사합니다. 미사일은 공격력 10000% 만큼의 범위 피해를 주며, 큰 미사일 적중 시 3초간 충격 효과가 부여됩니다. 충격 상태의 적은 다음에 받는 고양이, 기계 스킬 피해가 10000% 증가합니다."
+      },
+      {
+        "effect": "충격 효과가 부여된 대상이 받는 피해가 4000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "충격 효과가 부여된 대상이 받는 피해가 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "충격 효과가 부여된 대상이 받는 피해가 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "기계", "고양이"],
+    "size": "대형",
+    "name": "캣틀쉽",
+    "image": "assets/companion/mythic/c.5-16.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'캣 히어로즈' 스킬이 '메카 캣 프로토콜'로 변경됩니다. 메카 캣 프로토콜의 추가 피해량이 10000% 증가됩니다."
+      },
+      {
+        "effect": "기계 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "캣틀쉽 기본공격은 100% 확률로 적에게 감전 효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "메카 캣 프로토콜 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "메카 캣 프로토콜 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "늑대", "그림자"],
+    "size": "중형",
+    "name": "녹스",
+    "image": "assets/companion/mythic/c.5-17.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "포식자의 참격 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "포식자의 참격 스킬 사용 시 자신에게 적용 중인 서로 다른 늑대 버프 스킬 * 2000% 만큼 데미지가 증가합니다."
+      },
+      {
+        "effect": "상태이상에 걸린 적은 포식자의 참격 스킬에 받는 피해가 5000% 추가로 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "포식자의 참격 스킬 피해량이 추가로 300000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "포식자의 참격 스킬 피해량이 추가로 7800000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["늑대", "동물"],
+    "size": "대형",
+    "name": "펜리르",
+    "image": "assets/companion/mythic/c.5-18.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "펜리르는 전설 이하 등급의 늑대 동료를 흡수하여 진화합니다. 흡수한 늑대동료 1명당 모든 늑대타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "펜리르의 기본공격은 100% 확률로 적에게 실명 효과를 부여하여 5초동안 대상의 공격력을 90% 감소시킵니다."
+      },
+      {
+        "effect": "야성본능 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "실명 효과의 대상에게 늑대 타입 스킬이 입히는 피해가 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "늑대 타입 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "늑대 타입 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고양이", "기계"],
+    "size": "대형",
+    "name": "메카네코",
+    "image": "assets/companion/mythic/c.5-19.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "발도술[상처] 대상에게 받는 피해가 90% 감소합니다."
+      },
+      {
+        "effect": "메카네코의 기본공격은 100% 확률로 적에게 공포효과를 부여하여 3초동안 대상이 입는 피해량을 4000% 증가시킵니다."
+      },
+      {
+        "effect": "발도술 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "[상처]대상이 고양이, 기계 타입 스킬에 입는 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "[상처]대상이 고양이, 기계 타입 스킬에 입는 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "상어", "동물", "해적"],
+    "size": "대형",
+    "name": "샤크프릿",
+    "image": "assets/companion/mythic/c.5-20.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'심판의 시간' 스킬이 '운명의 시간'으로 변경됩니다. 운명의 시간 추가 피해량이 4000% 증가됩니다."
+      },
+      {
+        "effect": "샤크프릿의 기본공격은 100% 확률로 적에게 공포효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "'바다의 처형' 스킬이 '빛나는 처형'으로 변경됩니다. 빛나는 처형의 추가 피해량이 4000% 증가됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "심판의 시간 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "심판의 시간 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["상어", "기계", "해적"],
+    "size": "대형",
+    "name": "샤크스톤",
+    "image": "assets/companion/mythic/c.5-21.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "상어 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "샤크스톤의 기본공격은 100% 확률로 적에게 실명 효과를 부여하여 5초동안 대상의 공격력을 90% 감소시킵니다."
+      },
+      {
+        "effect": "심판의 시간 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "실명 효과의 대상에게 상어 타입 스킬이 입히는 피해가 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "상어 타입 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "상어 타입 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["상어", "기계", "해적"],
+    "size": "대형",
+    "name": "닥터 블래스트",
+    "image": "assets/companion/mythic/c.5-22.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "상어 타입 스킬 시전 시 50% 확률로 특대형 상어 미사일을 추가로 발사하여 초토화 로켓 스킬피해량의 1000% 피해를 입힙니다. 장착한 상어 동료 하나당 발사 확률이 5% 증가합니다."
+      },
+      {
+        "effect": "감전 효과가 부여된 대상이 받는 피해가 추가로 4000% 증가합니다."
+      },
+      {
+        "effect": "특대형 상어 미사일의 피해량이 4000% 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "특대형 상어 미사일의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "특대형 상어 미사일의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["해적"],
+    "size": "대형",
+    "name": "카르툰",
+    "image": "assets/companion/mythic/c.5-23.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "해적 타입 스킬 데미지를 4000% 강화합니다."
+      },
+      {
+        "effect": "카르툰의 기본공격은 100% 확률로 적에게 실명 효과를 부여하여 5초동안 대상의 공격력을 90% 감소시킵니다."
+      },
+      {
+        "effect": "포탄 세례 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "실명 효과의 대상에게 해적 타입 스킬이 입히는 피해가 2000% 증가합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "해적 타입 스킬의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "해적 타입 스킬의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["해적"],
+    "size": "대형",
+    "name": "옥타리온",
+    "image": "assets/companion/mythic/c.5-24.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "별똥별 소환 스킬 피해량이 4000% 증가합니다."
+      },
+      {
+        "effect": "옥타리온의 기본공격은 100% 확률로 적에게 감전 효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "별똥별 소환 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "별똥별 소환 스킬 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "별똥별 소환 스킬 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["늑대", "동물"],
+    "size": "대형",
+    "name": "라이칸",
+    "image": "assets/companion/mythic/c.5-25.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "사냥개시 지속시간 중 받는 피해량이 90% 감소합니다."
+      },
+      {
+        "effect": "라이칸의 기본공격은 100% 확률로 적에게 감전 효과를 부여하여 3초동안 대상이 입는 피해량을 4000% 증가시킵니다."
+      },
+      {
+        "effect": "사냥 개시 스킬의 재사용 대기시간이 90% 감소됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "늑대 치명타의 최종 피해량이 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "늑대 치명타의 최종 피해량이 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "해적"],
+    "size": "대형",
+    "name": "미르크",
+    "image": "assets/companion/mythic/c.5-26.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'포탄 세례' 스킬이 '파멸의 포탄 세례'로 변경됩니다. 파멸의 포탄 세례의 추가 피해량이 4000% 증가됩니다. 파멸의 포탄 세례의 대형 포탄 데미지가 추가로 4000% 증가됩니다."
+      },
+      {
+        "effect": "코송의 기본공격은 100% 확률로 적에게 공포효과를 부여하여 3초동안 대상이 입는 피해량을 2000% 증가시킵니다."
+      },
+      {
+        "effect": "'바다의 처형' 스킬이 '심해의 처형'으로 변경됩니다. 심해의 처형 추가 피해량이 4000% 증가됩니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "포탄 세례 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "포탄 세례 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  },
+  {
+    "id": "mythic_companion",
+    "type": ["고유", "기계", "늑대"],
+    "size": "대형",
+    "name": "우가루스",
+    "image": "assets/companion/mythic/c.5-27.png",
+    "grade": "mythic",
+    "companion-experience": "",
+    "special-effect": [
+      {
+        "effect": "'할퀴기' 스킬이 '메카 할퀴기' 스킬로 변경되고 피해량이 2000% 증가합니다.."
+      },
+      {
+        "effect": "기계 타입 스킬 데미지를 2000% 강화합니다."
+      },
+      {
+        "effect": "야성본능의 늑대 치명타 피해량이 2000% 추가로 증가합니다."
+      },
+      {
+        "effect": "필요 마력이 3 감소합니다."
+      }
+    ],
+    "awaken": {
+      "effect": "메카 할퀴기 스킬의 피해량이 추가로 180000% 증가합니다."
+    },
+    "awaken+10": {
+      "effect": "메카 할퀴기 스킬의 피해량이 추가로 4680000% 증가합니다."
+    }
+  }
+]

@@ -1,0 +1,1567 @@
+﻿[{
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "생선 증폭",
+        "image": "assets/runes/sub-runes/uncommon/s.1-1.png",
+        "grade": "uncommon",
+        "effect": "생선 피해 증폭 +25%",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "구름 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-2.png",
+        "grade": "uncommon",
+        "effect": "장착한 구름 동료 하나 당 구름 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "트리플샷",
+        "image": "assets/runes/sub-runes/uncommon/s.1-3.png",
+        "grade": "uncommon",
+        "effect": "트리플샷이 5% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "기계 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-4.png",
+        "grade": "uncommon",
+        "effect": "장착한 기계 동료 하나 당 기계 타입 스킬의 피해량이 20% 증가합니다",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해",
+        "image": "assets/runes/sub-runes/uncommon/s.1-5.png",
+        "grade": "uncommon",
+        "effect": "치명타 피해 증폭 +25%",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-7.png",
+        "grade": "uncommon",
+        "effect": "장착한 고양이 동료 하나 당 고양이 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "상어 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-6.png",
+        "grade": "uncommon",
+        "effect": "장착한 상어 동료 하나 당 상어 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "보스공략",
+        "image": "assets/runes/sub-runes/uncommon/s.1-8.png",
+        "grade": "uncommon",
+        "effect": "보스 대상 피해 증가 + 10%",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "동물 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-9.png",
+        "grade": "uncommon",
+        "effect": "장착한 동물 동료 하나 당 모든 피해량이 3% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해 증폭 저항",
+        "image": "assets/runes/sub-runes/uncommon/s.1-10.png",
+        "grade": "uncommon",
+        "effect": "치명타 피해 증폭 저항이 25% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "디저트 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-11.png",
+        "grade": "uncommon",
+        "effect": "장착한 디저트 동료 하나 당 디저트 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "공격력",
+        "image": "assets/runes/sub-runes/uncommon/s.1-12.png",
+        "grade": "uncommon",
+        "effect": "공격력 증폭 +50%",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "중형 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-13.png",
+        "grade": "uncommon",
+        "effect": "장착한 중형 동료 하나 당 모든 스킬의 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "멀티샷",
+        "image": "assets/runes/sub-runes/uncommon/s.1-14.png",
+        "grade": "uncommon",
+        "effect": "멀티샷이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "마법 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-15.png",
+        "grade": "uncommon",
+        "effect": "장착한 마법 동료 하나 당 마법 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-16.png",
+        "grade": "uncommon",
+        "effect": "장착한 늑대 동료 하나 당 기계 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "대형 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-17.png",
+        "grade": "uncommon",
+        "effect": "장착한 대형 동료 하나당 모든 스킬의 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "햄버거 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-18.png",
+        "grade": "uncommon",
+        "effect": "장착한 햄버거 동료 하나 당 모든 스킬의 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "음식 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-19.png",
+        "grade": "uncommon",
+        "effect": "장착한 음식 동료 하나 당 음식 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "그림자 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-20.png",
+        "grade": "uncommon",
+        "effect": "장착한 그림자 동료 하나 당 그림자 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "고래 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-21.png",
+        "grade": "uncommon",
+        "effect": "장착한 고래 동료 하나 당 고래 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "소형 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-22.png",
+        "grade": "uncommon",
+        "effect": "장착한 소형 동료 하나 당 모든 스킬의 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "닭 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-23.png",
+        "grade": "uncommon",
+        "effect": "장착한 닭 동료 하나당 닭 타입 스킬의 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "용 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-24.png",
+        "grade": "uncommon",
+        "effect": "장착한 용 동료 하나 당 모든 스킬의 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 확률",
+        "image": "assets/runes/sub-runes/uncommon/s.1-25.png",
+        "grade": "uncommon",
+        "effect": "치명타 확률이 10% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "매콤 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-26.png",
+        "grade": "uncommon",
+        "effect": "장착한 매콤 동료 하나 당 매콤 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "uncommon_s-rune",
+        "type": "sub-rune",
+        "name": "식물 강화",
+        "image": "assets/runes/sub-runes/uncommon/s.1-27.png",
+        "grade": "uncommon",
+        "effect": "장착한 식물 동료 하나 당 식물 타입 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "매콤 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-1.png",
+        "grade": "rare",
+        "effect": "장착한 매콤 동료 하나 당 매콤 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 회피 증가",
+        "image": "assets/runes/sub-runes/rare/s.2-2.png",
+        "grade": "rare",
+        "effect": "PVP 회피가 1 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "중형 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-3.png",
+        "grade": "rare",
+        "effect": "장착한 중형 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 명중 증가",
+        "image": "assets/runes/sub-runes/rare/s.2-4.png",
+        "grade": "rare",
+        "effect": "PVP 명중이 1 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다. )",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "닭 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-5.png",
+        "grade": "rare",
+        "effect": "장착한 닭 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 저항",
+        "image": "assets/runes/sub-runes/rare/s.2-6.png",
+        "grade": "rare",
+        "effect": "치명타 저항이 25% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "동물 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-7.png",
+        "grade": "rare",
+        "effect": "장착한 동물 동료 하나 당 모든 피해량이 5% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-8.png",
+        "grade": "rare",
+        "effect": "장착한 고양이 동료 하나 당 고양이 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "햄버거 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-9.png",
+        "grade": "rare",
+        "effect": "장착한 햄버거 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "기계 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-10.png",
+        "grade": "rare",
+        "effect": "장착한 기계 동료 하나 당 기계 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "디저트 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-11.png",
+        "grade": "rare",
+        "effect": "장착한 디저트 동료 하나 당 디저트 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "그림자 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-12.png",
+        "grade": "rare",
+        "effect": "장착한 그림자 동료 하나 당 그림자 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-13.png",
+        "grade": "rare",
+        "effect": "장착한 늑대 동료 하나 당 늑대 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "보스공략",
+        "image": "assets/runes/sub-runes/rare/s.2-14.png",
+        "grade": "rare",
+        "effect": "보스 대상 피해 증가 +20%",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "소형 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-15.png",
+        "grade": "rare",
+        "effect": "장착한 소형 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "음식 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-16.png",
+        "grade": "rare",
+        "effect": "장착한 음식 동료 하나 당 음식 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해",
+        "image": "assets/runes/sub-runes/rare/s.2-17.png",
+        "grade": "rare",
+        "effect": "치명타 피해 증폭 +50%",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 확률",
+        "image": "assets/runes/sub-runes/rare/s.2-18.png",
+        "grade": "rare",
+        "effect": "치명타 확률이 20% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "상어 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-19.png",
+        "grade": "rare",
+        "effect": "장착한 상어 동료 하나 당 상어 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "용 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-20.png",
+        "grade": "rare",
+        "effect": "장착한 용 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "구름 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-21.png",
+        "grade": "rare",
+        "effect": "장착한 구름 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "생선증폭",
+        "image": "assets/runes/sub-runes/rare/s.2-22.png",
+        "grade": "rare",
+        "effect": "생선 피해 증폭 +50%",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해 증폭 저항",
+        "image": "assets/runes/sub-runes/rare/s.2-23.png",
+        "grade": "rare",
+        "effect": "치명타 피해 증폭 저항이 50% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "고래 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-24.png",
+        "grade": "rare",
+        "effect": "장착한 고래 동료 하나 당 고래 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "마법 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-25.png",
+        "grade": "rare",
+        "effect": "장착한 마법 동료 하나 당 마법 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "공격력",
+        "image": "assets/runes/sub-runes/rare/s.2-26.png",
+        "grade": "rare",
+        "effect": "공격력 증폭 +100%",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "트리플샷",
+        "image": "assets/runes/sub-runes/rare/s.2-27.png",
+        "grade": "rare",
+        "effect": "트리플샷이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "대형 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-28.png",
+        "grade": "rare",
+        "effect": "장착한 대형 동료 하나 당 모든 스킬의 피해량이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "식물 강화",
+        "image": "assets/runes/sub-runes/rare/s.2-29.png",
+        "grade": "rare",
+        "effect": "장착한 식물 동료 하나 당 식물 타입 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "식물 마력 개선",
+        "image": "assets/runes/sub-runes/rare/s.2-30.png",
+        "grade": "rare",
+        "effect": "희귀 등급 식물 필요 마력 1 감소",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "rare_s-rune",
+        "type": "sub-rune",
+        "name": "멀티샷",
+        "image": "assets/runes/sub-runes/rare/s.2-31.png",
+        "grade": "rare",
+        "effect": "멀티샷이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +20%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "식물 마력 개선",
+        "image": "assets/runes/sub-runes/epic/s.3-1.png",
+        "grade": "epic",
+        "effect": "영웅 등급 식물 필요 마력 1 감소",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "동물 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-2.png",
+        "grade": "epic",
+        "effect": "장착한 동물 동료 하나 당 모든 피해량이 10% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-3.png",
+        "grade": "epic",
+        "effect": "장착한 늑대 동료 하나 당 늑대 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "동물 마력 개선",
+        "image": "assets/runes/sub-runes/epic/s.3-4.png",
+        "grade": "epic",
+        "effect": "영웅 등급 동물 필요 마력 1 감소",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "대형 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-5.png",
+        "grade": "epic",
+        "effect": "장착한 대형 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "용 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-6.png",
+        "grade": "epic",
+        "effect": "장착한 용 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "상어 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-7.png",
+        "grade": "epic",
+        "effect": "장착한 상어 동료 하나 당 상어 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "기계 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-8.png",
+        "grade": "epic",
+        "effect": "장착한 기계 동료 하나 당 기계 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "디저트 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-9.png",
+        "grade": "epic",
+        "effect": "장착한 디저트 동료 하나 당 디저트 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "마법 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-10.png",
+        "grade": "epic",
+        "effect": "장착한 마법 동료 하나 당 마법 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "소형 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-11.png",
+        "grade": "epic",
+        "effect": "장착한 소형 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "중형 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-12.png",
+        "grade": "epic",
+        "effect": "장착한 중형 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "햄버거 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-13.png",
+        "grade": "epic",
+        "effect": "장착한 햄버거 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 확률",
+        "image": "assets/runes/sub-runes/epic/s.3-14.png",
+        "grade": "epic",
+        "effect": "치명타 확률이 25% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "구름 강화2",
+        "image": "assets/runes/sub-runes/epic/s.3-15.png",
+        "grade": "epic",
+        "effect": "장착한 구름 동료 하나 당 구름 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 저항",
+        "image": "assets/runes/sub-runes/epic/s.3-16.png",
+        "grade": "epic",
+        "effect": "치명타 저항이 30% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 회피 증가",
+        "image": "assets/runes/sub-runes/epic/s.3-17.png",
+        "grade": "epic",
+        "effect": "PVP 회피가 2 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "매콤 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-18.png",
+        "grade": "epic",
+        "effect": "장착한 매콤 동료 하나 당 매콤 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해 증폭 저항",
+        "image": "assets/runes/sub-runes/epic/s.3-19.png",
+        "grade": "epic",
+        "effect": "치명타 피해 증폭 저항이 100% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "고래 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-20.png",
+        "grade": "epic",
+        "effect": "장착한 고래 동료 하나 당 고래 타입 스킬의 피해량이 80% 증가합니다. ",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "그림자 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-21.png",
+        "grade": "epic",
+        "effect": "장착한 그림자 동료 하나 당 그림자 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "구름 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-22.png",
+        "grade": "epic",
+        "effect": "장착한 구름 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 명중 증가",
+        "image": "assets/runes/sub-runes/epic/s.3-23.png",
+        "grade": "epic",
+        "effect": "PVP 명중이 2 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "기계 마력 개선",
+        "image": "assets/runes/sub-runes/epic/s.3-24.png",
+        "grade": "epic",
+        "effect": "영웅 등급 기계 필요 마력 1 감소",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해",
+        "image": "assets/runes/sub-runes/epic/s.3-25.png",
+        "grade": "epic",
+        "effect": "치명타 피해 증폭 +100%",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "생선증폭",
+        "image": "assets/runes/sub-runes/epic/s.3-26.png",
+        "grade": "epic",
+        "effect": "생선 피해 증폭 +100%",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "보스공략",
+        "image": "assets/runes/sub-runes/epic/s.3-27.png",
+        "grade": "epic",
+        "effect": "보스 대상 피해 증가 +40%",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-28.png",
+        "grade": "epic",
+        "effect": "장착한 고양이 동료 하나 당 고양이 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "공격력",
+        "image": "assets/runes/sub-runes/epic/s.3-29.png",
+        "grade": "epic",
+        "effect": "공격력 증폭 +200%",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "트리플샷",
+        "image": "assets/runes/sub-runes/epic/s.3-30.png",
+        "grade": "epic",
+        "effect": "트리플샷이 20% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "닭 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-31.png",
+        "grade": "epic",
+        "effect": "장착한 닭 동료 하나 당 모든 스킬의 피해량이 40% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "음식 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-32.png",
+        "grade": "epic",
+        "effect": "장착한 음식 동료 하나 당 음식 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "epic_s-rune",
+        "type": "sub-rune",
+        "name": "식물 강화",
+        "image": "assets/runes/sub-runes/epic/s.3-33.png",
+        "grade": "epic",
+        "effect": "장착한 식물 동료 하나 당 식물 타입 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legend_s-rune",
+        "type": "sub-rune",
+        "name": "생선 증폭",
+        "image": "assets/runes/sub-runes/legendary/s.4-1.png",
+        "grade": "legendary",
+        "effect": "생선 피해 증폭 +200%",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "상어 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-3.png",
+        "grade": "legendary",
+        "effect": "장착한 상어 동료 하나 당 상어 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해 증폭 저항",
+        "image": "assets/runes/sub-runes/legendary/s.4-4.png",
+        "grade": "legendary",
+        "effect": "치명타 피해 증폭 저항이 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "전설 마력 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-5.png",
+        "grade": "legendary",
+        "effect": "전설 동료 필요 마력 1 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 버프",
+        "image": "assets/runes/sub-runes/legendary/s.4-6.png",
+        "grade": "legendary",
+        "effect": "고양이 타입 스킬 시전 후 3초 동안 최종 피해량이 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 스킬 증폭",
+        "image": "assets/runes/sub-runes/legendary/s.4-7.png",
+        "grade": "legendary",
+        "effect": "장착한 고양이 하나 당 고양이 타입 스킬의 피해 계수가 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 강화2",
+        "image": "assets/runes/sub-runes/legendary/s.4-8.png",
+        "grade": "legendary",
+        "effect": "장착한 고양이 동료 하나 당 치명타 피해 증폭이 150% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 명중 증가",
+        "image": "assets/runes/sub-runes/legendary/s.4-9.png",
+        "grade": "legendary",
+        "effect": "PVP 명중이 3 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "해적 버프",
+        "image": "assets/runes/sub-runes/legendary/s.4-10.png",
+        "grade": "legendary",
+        "effect": "해적 타입 스킬 시전 후 3초 동안 최종 피해량이 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "해적 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-11.png",
+        "grade": "legendary",
+        "effect": "장착한 해적 타입 스킬 하나 당 해적 타입 스킬의 피해 계수가 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-12.png",
+        "grade": "legendary",
+        "effect": "장착한 고양이 동료 하나 당 고양이 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "마법 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-13.png",
+        "grade": "legendary",
+        "effect": "장착한 마법 동료 하나 당 마법 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "매콤 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-14.png",
+        "grade": "legendary",
+        "effect": "장착한 매콤 동료 하나 당 매콤 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "구름 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-15.png",
+        "grade": "legendary",
+        "effect": "전설 등급 구름 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 방어력 관통 증가",
+        "image": "assets/runes/sub-runes/legendary/s.4-16.png",
+        "grade": "legendary",
+        "effect": "PVP 방어력 관통이 4 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "용 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-17.png",
+        "grade": "legendary",
+        "effect": "장착한 용 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "디저트 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-18.png",
+        "grade": "legendary",
+        "effect": "장착한 디저트 동료 하나 당 디저트 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "음식 강화2",
+        "image": "assets/runes/sub-runes/legendary/s.4-19.png",
+        "grade": "legendary",
+        "effect": "장착한 음식 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "음식 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-20.png",
+        "grade": "legendary",
+        "effect": "장착한 음식 동료 하나 당 음식 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "음식 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-21.png",
+        "grade": "legendary",
+        "effect": "전설 등급 음식 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "최대 마력 증가",
+        "image": "assets/runes/sub-runes/legendary/s.4-22.png",
+        "grade": "legendary",
+        "effect": "최대 마력이 4 증가합니다 (동일한 룬 중 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 확률",
+        "image": "assets/runes/sub-runes/legendary/s.4-23.png",
+        "grade": "legendary",
+        "effect": "치명타 확률이 30% 증가합니다. (동일한 룬 중  가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 강화2",
+        "image": "assets/runes/sub-runes/legendary/s.4-24.png",
+        "grade": "legendary",
+        "effect": "장착한 늑대 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "소형 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-25.png",
+        "grade": "legendary",
+        "effect": "장착한 소형 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "매콤 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-26.png",
+        "grade": "legendary",
+        "effect": "전설 등급 매콤 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "중형 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-27.png",
+        "grade": "legendary",
+        "effect": "장착한 중형 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-28.png",
+        "grade": "legendary",
+        "effect": "장착한 늑대 동료 하나 당 늑대 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "대형 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-29.png",
+        "grade": "legendary",
+        "effect": "장착한 대형 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "햄버거 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-30.png",
+        "grade": "legendary",
+        "effect": "장착한 햄버거 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "구름 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-31.png",
+        "grade": "legendary",
+        "effect": "장착한 구름 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 저항",
+        "image": "assets/runes/sub-runes/legendary/s.4-32.png",
+        "grade": "legendary",
+        "effect": "치명타 저항이 35% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "식물 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-33.png",
+        "grade": "legendary",
+        "effect": "장착한 식물 동료 하나 당 식물 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "보스공략",
+        "image": "assets/runes/sub-runes/legendary/s.4-34.png",
+        "grade": "legendary",
+        "effect": "보스 대상 피해 증가 +80%",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 피해",
+        "image": "assets/runes/sub-runes/legendary/s.4-35.png",
+        "grade": "legendary",
+        "effect": "치명타 피해 증폭 +200%",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 회피 증가",
+        "image": "assets/runes/sub-runes/legendary/s.4-36.png",
+        "grade": "legendary",
+        "effect": "PVP 회피가 3 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "고래 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-37.png",
+        "grade": "legendary",
+        "effect": "장착한 고래 동료 하나 당 고래 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "그림자 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-38.png",
+        "grade": "legendary",
+        "effect": "장착한 그림자 동료 하나 당 그림자 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "햄버거 마력 제로",
+        "image": "assets/runes/sub-runes/legendary/s.4-39.png",
+        "grade": "legendary",
+        "effect": "햄버거 동료가 마력을 소모하지 않습니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "닭 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-40.png",
+        "grade": "legendary",
+        "effect": "장착한 닭 동료 하나 당 모든 스킬의 피해량이 80% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "그림자 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-41.png",
+        "grade": "legendary",
+        "effect": "전설 등급 그림자 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "동물 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-42.png",
+        "grade": "legendary",
+        "effect": "장착한 동물 동료 하나 당 모든 피해량이 30% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "음식 버프",
+        "image": "assets/runes/sub-runes/legendary/s.4-43.png",
+        "grade": "legendary",
+        "effect": "음식 타입 스킬 시전 후 3초 동안 최종 피해량이 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "기계 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-44.png",
+        "grade": "legendary",
+        "effect": "장착한 기계 동료 하나 당 기계 타입 스킬의 피해량이 160% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "해적 치명타 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-45.png",
+        "grade": "legendary",
+        "effect": "장착한 해적 동료 하나 당 치명타로 입히는 피해가 150% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "디저트 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-46.png",
+        "grade": "legendary",
+        "effect": "전설 등급 디저트 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 방어력 증가",
+        "image": "assets/runes/sub-runes/legendary/s.4-47.png",
+        "grade": "legendary",
+        "effect": "PVP 방어력이 4 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "전설 강화",
+        "image": "assets/runes/sub-runes/legendary/s.4-48.png",
+        "grade": "legendary",
+        "effect": "장착한 전설 등급 동료 하나 당 전설 등급 스킬의 피해량이 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "동물 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-49.png",
+        "grade": "legendary",
+        "effect": "전설 등급 동물 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "기계 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-50.png",
+        "grade": "legendary",
+        "effect": "전설 등급 기계 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "해적 치명타 증폭",
+        "image": "assets/runes/sub-runes/legendary/s.4-51.png",
+        "grade": "legendary",
+        "effect": "장착한 해적 동료 하나 당 치명타 피해 증폭이 150% 증가합니다.",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "상어 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-52.png",
+        "grade": "legendary",
+        "effect": "전설 등급 상어 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "legendary_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 마력 개선",
+        "image": "assets/runes/sub-runes/legendary/s.4-53.png",
+        "grade": "legendary",
+        "effect": "전설 등급 늑대 필요 마력 2 감소",
+        "holdEffect": "공격력 증폭 +100%"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 방어력 증가",
+        "image": "assets/runes/sub-runes/mythic/s.5-1.png",
+        "grade": "mythic",
+        "effect": "PVP 방어력이 10 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "음식 버프",
+        "image": "assets/runes/sub-runes/mythic/s.5-2.png",
+        "grade": "mythic",
+        "effect": "음식 타입 스킬 시전 후 3초 동안 최종 피해량이 5000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 방어력 관통 증가",
+        "image": "assets/runes/sub-runes/mythic/s.5-3.png",
+        "grade": "mythic",
+        "effect": "PVP 방어력 관통이 10 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "해적 치명타 증폭",
+        "image": "assets/runes/sub-runes/mythic/s.5-4.png",
+        "grade": "mythic",
+        "effect": "장착한 해적 동료 하나 당 치명타 피해 증폭이 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "음식 치명타 증폭",
+        "image": "assets/runes/sub-runes/mythic/s.5-5.png",
+        "grade": "mythic",
+        "effect": "장착한 음식 동료 하나 당 치명타 피해 증폭이 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "해적 버프",
+        "image": "assets/runes/sub-runes/mythic/s.5-6.png",
+        "grade": "mythic",
+        "effect": "해적 타입 스킬 시전 후 3초 동안 최종 피해량이 5000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "해적 치명타 강화",
+        "image": "assets/runes/sub-runes/mythic/s.5-7.png",
+        "grade": "mythic",
+        "effect": "장착한 해적 동료 하나 당 치명타로 입히는 피해가 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 치명타 증폭",
+        "image": "assets/runes/sub-runes/mythic/s.5-8.png",
+        "grade": "mythic",
+        "effect": "장착한 고양이 동료 하나 당 치명타 피해 증폭이 1500% 증가됩니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "최대 마력 증가",
+        "image": "assets/runes/sub-runes/mythic/s.5-9.png",
+        "grade": "mythic",
+        "effect": "최대 마력이 6 증가합니다. (동일한 룬 중 높은 단계만 적용 됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 버프",
+        "image": "assets/runes/sub-runes/mythic/s.5-10.png",
+        "grade": "mythic",
+        "effect": "고양이 타입 스킬 시전 후 3초 동안 최종 피해량이 5000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 치명타 증폭",
+        "image": "assets/runes/sub-runes/mythic/s.5-11.png",
+        "grade": "mythic",
+        "effect": "장착한 늑대 동료 하나 당 치명타 피해 증폭이 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 치명타 강화",
+        "image": "assets/runes/sub-runes/mythic/s.5-12.png",
+        "grade": "mythic",
+        "effect": "장착한 늑대 동료 하나 당 치명타로 입히는 피해가 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 확률",
+        "image": "assets/runes/sub-runes/mythic/s.5-13.png",
+        "grade": "mythic",
+        "effect": "치명타 확률이 40% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 버프",
+        "image": "assets/runes/sub-runes/mythic/s.5-14.png",
+        "grade": "mythic",
+        "effect": "늑대 타입 스킬 시전 후 3초 동안 최종 피해량이 5000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 회피 증가",
+        "image": "assets/runes/sub-runes/mythic/s.5-15.png",
+        "grade": "mythic",
+        "effect": "PVP 회피가 4 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "기계 버프",
+        "image": "assets/runes/sub-runes/mythic/s.5-16.png",
+        "grade": "mythic",
+        "effect": "기계 타입 스킬 시전 후 3초 동안 최종 피해량이 5000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "기계 치명타 증폭",
+        "image": "assets/runes/sub-runes/mythic/s.5-17.png",
+        "grade": "mythic",
+        "effect": "장착한 기계 동료 하나 당 치명타 피해 증폭이 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "치명타 저항",
+        "image": "assets/runes/sub-runes/mythic/s.5-18.png",
+        "grade": "mythic",
+        "effect": "치명타 저항이 45% 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 치명타 강화",
+        "image": "assets/runes/sub-runes/mythic/s.5-19.png",
+        "grade": "mythic",
+        "effect": "장착한 고양이 동료 하나 당 치명타로 입히는 피해가 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 명중 증가",
+        "image": "assets/runes/sub-runes/mythic/s.5-20.png",
+        "grade": "mythic",
+        "effect": "PVP 명중이 4 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_s-rune",
+        "type": "sub-rune",
+        "name": "음식 치명타 강화",
+        "image": "assets/runes/sub-runes/mythic/s.5-21.png",
+        "grade": "mythic",
+        "effect": "장착한 음식 동료 하나 당 치명타로 입히는 피해가 1500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 방어력 관통 증가",
+        "image": "assets/runes/sub-runes/ascension/s.6-1.png",
+        "grade": "ascension",
+        "effect": "PVP 방어력 관통이 20 증가합니다. (동일한 룬 중ㄱ 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "해적 치명타 증폭",
+        "image": "assets/runes/sub-runes/ascension/s.6-2.png",
+        "grade": "ascension",
+        "effect": "장착한 해적 동료 하나 당 치명타 피해 증폭이 7500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 버프",
+        "image": "assets/runes/sub-runes/ascension/s.6-3.png",
+        "grade": "ascension",
+        "effect": "고양 타입 스킬 시전 후 5초 동안 최종 피해량이 25000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "해적 버프",
+        "image": "assets/runes/sub-runes/ascension/s.6-4.png",
+        "grade": "ascension",
+        "effect": "해적 타입 스킬 시전 후 5초 동안 최종 피해량이 25000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "PVP 방어력 증가",
+        "image": "assets/runes/sub-runes/ascension/s.6-5.png",
+        "grade": "ascension",
+        "effect": "PVP 방어력이 20 증가합니다. (동일한 룬 중 가장 높은 단계만 적용됩니다.)",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "고양이 치명타 증폭",
+        "image": "assets/runes/sub-runes/ascension/s.6-6.png",
+        "grade": "ascension",
+        "effect": "장착한 고양이 동료 하나 당 치명타 피해 증폭이 7500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "음식 치명타 증폭",
+        "image": "assets/runes/sub-runes/ascension/s.6-7.png",
+        "grade": "ascension",
+        "effect": "장착한 음식 동료 하나 당 치명타 피해 증폭이 7500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 버프",
+        "image": "assets/runes/sub-runes/ascension/s.6-8.png",
+        "grade": "ascension",
+        "effect": "늑대 타입 스킬 시전 후 5초 동안 최종 피해량이 25000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "늑대 치명타 증폭",
+        "image": "assets/runes/sub-runes/ascension/s.6-9.png",
+        "grade": "ascension",
+        "effect": "장착한 늑대 동료 하나 당 치명타 피해 증폭이 7500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "ascension_s-rune",
+        "type": "sub-rune",
+        "name": "음식 버프",
+        "image": "assets/runes/sub-runes/ascension/s.6-10.png",
+        "grade": "ascension",
+        "effect": "음식 타입 스킬 시전 후 5초 동안 최종 피해량이 25000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    }
+]

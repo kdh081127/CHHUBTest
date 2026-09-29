@@ -1,0 +1,665 @@
+{
+    "note": "이 파일은 실제 프리셋 빌드 데이터입니다. companions/mainRunes/subRunes/skills 배열의 이름은 각각 companion.json/rune-m.json/rune-s.json/skills.json의 'name' 값과 정확히 일치해야 합니다(오탈자가 있으면 적용 시 어떤 이름을 못 찾았는지 경고로 알려줍니다). 빌드는 이 배열에 항목을 추가/삭제하는 것만으로 늘리거나 줄일 수 있습니다. tier에 순위(1, 2, 3...) 숫자를 넣으면 '덱 티어리스트' 탭에 그 순서대로 나타나고, tier가 없거나 null이면 티어리스트에는 나오지 않습니다(프리셋 빌드 목록에는 계속 나옵니다).",
+    "presets": [
+        {
+            "id": "cannon-build",
+            "name": "포탄빌드",
+            "description": "포오오탄 세례!",
+            "tier": null,
+            "companions": [
+                "카르툰",
+                "미르크",
+                "옥타리온",
+                "스타링",
+                "잭 스트라이커",
+                "잭플라이"
+            ],
+            "mainRunes": [
+                {
+                    "name": "포오오오탄 세례",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "파도가 몰려온다",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "별똥별 소환 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "포탄세례 강화2",
+                    "grade": "mythic"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "동물 마력 개선",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "해적 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "해적 치명타 증폭",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "해적 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "해적 버프",
+                    "grade": "mythic"
+                }
+            ],
+            "skills": [
+                "포탄 세례",
+                "바다의 처형",
+                "별똥별 소환",
+                "녹턴 소환",
+                "블랙홀",
+                "포식자의 낙인"
+            ]
+        },
+        {
+            "id": "cloud-build",
+            "name": "구름빌드",
+            "description": "구름속 신선",
+            "tier": null,
+            "companions": [
+                "쿠무루",
+                "오라클",
+                "메카네코",
+                "클라우디",
+                "룰루",
+                "스타링"
+            ],
+            "mainRunes": [
+                {
+                    "name": "번개와 고양이",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "고양이 신선 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "일도냥단",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "캣 히어로즈 강화",
+                    "grade": "mythic"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "고양이 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "고양이 버프",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "고양이 버프",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "고양이 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "기계 치명타 증폭",
+                    "grade": "mythic"
+                }
+            ],
+            "skills": [
+                "고양이 신선",
+                "발도술",
+                "캣 히어로즈",
+                "해적 표식",
+                "블랙홀",
+                "레이저 소환"
+            ]
+        },
+        {
+            "id": "wolf-build",
+            "name": "늑대빌드",
+            "description": "거대늑대 할퀴기",
+            "tier": null,
+            "companions": [
+                "우가루스",
+                "펜리르",
+                "라이칸",
+                "루나스틸",
+                "워울프",
+                "웨어울프"
+            ],
+            "mainRunes": [
+                {
+                    "name": "늑대가 나타났다",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "사냥타임!",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "할퀴기 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "야성본능 강화2",
+                    "grade": "mythic"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "늑대 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "늑대 버프",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "늑대 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "늑대 치명타 증폭",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "늑대 강화",
+                    "grade": "legendary"
+                }
+            ],
+            "skills": [
+                "달의 분노",
+                "사냥 개시",
+                "야성본능",
+                "하울링",
+                "보름달",
+                "마법방패"
+            ]
+        },
+        {
+            "id": "dark-night-build",
+            "name": "흑야빌드",
+            "description": "흑야의 사냥꾼",
+            "tier": null,
+            "companions": [
+                "녹스",
+                "펜리르",
+                "라이칸",
+                "루나스틸",
+                "워울프",
+                "스타링"
+            ],
+            "mainRunes": [
+                {
+                    "name": "사냥타임!",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "늑대가 나타났다",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "포식자의 참격 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "포식자의 참격 강화",
+                    "grade": "legendary"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "늑대 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "늑대 버프",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "늑대 강화",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "늑대 강화2",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "늑대 치명타 강화",
+                    "grade": "mythic"
+                }
+            ],
+            "skills": [
+                "달의 분노",
+                "사냥 개시",
+                "야성본능",
+                "혼의 울림",
+                "그림자 혼식",
+                "포식자의 참격"
+            ]
+        },
+        {
+            "id": "phoenix-build",
+            "name": "불사조빌드",
+            "description": "불사조 소환",
+            "tier": null,
+            "companions": [
+                "보안관 잭",
+                "페페",
+                "아이스베리",
+                "샌드위치 백작",
+                "핫페퍼",
+                "파이로스"
+            ],
+            "mainRunes": [
+                {
+                    "name": "불사조의 분노",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "핫 매워매워",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "불사조 소환 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "매콤한 저주 강화2",
+                    "grade": "mythic"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "음식 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "음식 버프",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "음식 치명타 증폭",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "음식 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "음식 버프",
+                    "grade": "legendary"
+                }
+            ],
+            "skills": [
+                "불사조 소환",
+                "매콤한 저주",
+                "토핑 폭격",
+                "파티 타임",
+                "블랙홀",
+                "마법방패"
+            ]
+        },
+        {
+            "id": "whale-build",
+            "name": "고래빌드",
+            "description": "해적 잭도우",
+            "tier": null,
+            "companions": [
+                "잭모어",
+                "잭블루",
+                "벨루나",
+                "잭도우",
+                "잭 스트라이커",
+                "스타링"
+            ],
+            "mainRunes": [
+                {
+                    "name": "파도가 몰려온다",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "고래 총공격 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "바다의 처형 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "고래 함선 강화II",
+                    "grade": "legendary"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "해적 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "해적 치명타 증폭",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "해적 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "동물 마력 개선",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "전설 강화",
+                    "grade": "legendary"
+                }
+            ],
+            "skills": [
+                "벨루나의 가호",
+                "고래 총공격",
+                "바다의 처형",
+                "고래 함선",
+                "마법방패",
+                "먹물 뿌리기"
+            ]
+        },
+        {
+            "id": "shark-build",
+            "name": "상어빌드",
+            "description": "심판의 시간",
+            "tier": null,
+            "companions": [
+                "닥터 블래스트",
+                "샤크프릿",
+                "샤크스톤",
+                "블랙핀",
+                "잭 스트라이커",
+                "잭조스"
+            ],
+            "mainRunes": [
+                {
+                    "name": "파도가 몰려온다",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "심판의 시간 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "초토화 로켓 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "심판의 시간 강화",
+                    "grade": "legendary"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "해적 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "상어 마력 개선",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "상어 강화",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "해적 강화",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "해적 치명타 강화",
+                    "grade": "mythic"
+                }
+            ],
+            "skills": [
+                "심판의 시간",
+                "바다의 처형",
+                "포식자의 낙인",
+                "녹턴 소환",
+                "초토화 로켓",
+                "마법방패"
+            ]
+        },
+        {
+            "id": "final-shot-build",
+            "name": "종탄빌드",
+            "description": "종말의 탄환",
+            "tier": null,
+            "companions": [
+                "이블리스",
+                "아카네코",
+                "메카네코",
+                "스타링",
+                "룰루",
+                "베스퍼"
+            ],
+            "mainRunes": [
+                {
+                    "name": "일도냥단",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "상처 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "종말의 탄환 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "캣 히어로즈 강화",
+                    "grade": "mythic"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "그림자 마력 개선",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "전설 마력 강화",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "치명타 확률",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "고양이 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "기계 버프",
+                    "grade": "mythic"
+                }
+            ],
+            "skills": [
+                "발도술",
+                "종말의 탄환",
+                "캣 히어로즈",
+                "그림자 일격",
+                "사신의 계약",
+                "마법방패"
+            ]
+        },
+        {
+            "id": "machine-build",
+            "name": "기계빌드",
+            "description": "캣머신 광선",
+            "tier": null,
+            "companions": [
+                "캣틀쉽",
+                "테론",
+                "메카네코",
+                "캣블랙",
+                "캣머신",
+                "룰루"
+            ],
+            "mainRunes": [
+                {
+                    "name": "일도냥단",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "캣 히어로즈 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "고양이 광선 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "캣 히어로즈",
+                    "grade": "legendary"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "고양이 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "고양이 치명타 증폭",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "고양이 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "기계 마력 개선",
+                    "grade": "legendary"
+                },
+                {
+                    "name": "고양이 버프",
+                    "grade": "mythic"
+                }
+            ],
+            "skills": [
+                "캣 히어로즈",
+                "발도술",
+                "해적 표식",
+                "고양이 광선",
+                "마법방패",
+                "레이저 소환"
+            ]
+        },
+        {
+            "id": "dessert-build",
+            "name": "디저트빌드",
+            "description": "디저트 빌드",
+            "tier": 1,
+            "companions": [
+                "아멜리",
+                "코송",
+                "바빵",
+                "핫페퍼",
+                "스타링",
+                "피코"
+            ],
+            "mainRunes": [
+                {
+                    "name": "핫 매워매워",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "메론빵 블레이드 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "초콜릿 분수 강화2",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "매콤한 저주 강화2",
+                    "grade": "mythic"
+                }
+            ],
+            "subRunes": [
+                {
+                    "name": "최대 마력 증가",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "음식 버프",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "음식 치명타 증폭",
+                    "grade": "ascension"
+                },
+                {
+                    "name": "음식 치명타 강화",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "음식 버프",
+                    "grade": "mythic"
+                },
+                {
+                    "name": "음식 버프",
+                    "grade": "legendary"
+                }
+            ],
+            "skills": [
+                "매콤한 저주",
+                "메론빵 블레이드",
+                "초콜릿 분수",
+                "사탕 굴러가요",
+                "파티 타임",
+                "빵 폭발"
+            ]
+        }
+    ]
+}

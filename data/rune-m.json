@@ -1,0 +1,920 @@
+[
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "화난다 강화",
+        "image": "assets/runes/main-runes/uncommon/1-1.png",
+        "grade": "uncommon",
+        "effect": "화난다! 스킬을 강화하여 유지시간을 5초 증가시킵니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "폭탄 쥐 강화",
+        "image": "assets/runes/main-runes/uncommon/1-2.png",
+        "grade": "uncommon",
+        "effect": "폭탄 쥐 스킬을 강화하여 폭발 범위를 확장하고 스킬피해량이 50% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "디저트 폭격 강화",
+        "image": "assets/runes/main-runes/uncommon/1-3.png",
+        "grade": "uncommon",
+        "effect": "디저트 폭격 스킬을 강화하여 스킬피해량이 50% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "나뭇잎 가르기 강화",
+        "image": "assets/runes/main-runes/uncommon/1-4.png",
+        "grade": "uncommon",
+        "effect": "나뭇잎 가르기 스킬을 강화하여 범위가 늘어나며 스킬 피해량이 50% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "마법 서커스 강화",
+        "image": "assets/runes/main-runes/uncommon/1-5.png",
+        "grade": "uncommon",
+        "effect": "마법 서커스 스킬을 강화하여 초당 발사속도가 100% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "슈퍼캣 강화II",
+        "image": "assets/runes/main-runes/uncommon/1-6.png",
+        "grade": "uncommon",
+        "effect": "슈퍼캣 스킬을 강화하여 1번 튕깁니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "서리파편 강화",
+        "image": "assets/runes/main-runes/uncommon/1-7.png",
+        "grade": "uncommon",
+        "effect": "서리 파편 스킬을 강화하여 2개의 구체를 발사합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "디너타임 강화",
+        "image": "assets/runes/main-runes/uncommon/1-8.png",
+        "grade": "uncommon",
+        "effect": "디너타임 스킬을 강화하여 스킬 피해량이 50% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "샤샤샤샥 강화",
+        "image": "assets/runes/main-runes/uncommon/1-9.png",
+        "grade": "uncommon",
+        "effect": "샤샤샤샥 스킬을 강화하여 대상의 HP가 10% 이하면 처형시킵니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "초토화 로켓 강화",
+        "image": "assets/runes/main-runes/uncommon/1-10.png",
+        "grade": "uncommon",
+        "effect": "초토화 로켓 스킬을 강화하여 폭발 범위를 확장하고 스킬 피해량이 50% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "uncommon_rune",
+        "type": "main-rune",
+        "name": "랜덤 고급 스킬",
+        "image": "assets/runes/main-runes/uncommon/1-11.png",
+        "grade": "uncommon",
+        "effect": "장착중인 고급 스킬을 15초마다 사용합니다",
+        "holdEffect": "생선 제작 레벨 +1.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "슈퍼캣 강화I",
+        "image": "assets/runes/main-runes/rare/2-1.png",
+        "grade": "rare",
+        "effect": "슈퍼캣 스킬을 강화하여 3마리를 추가로 소환하고,\n스킬 피해량이 70% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "마법압축 강화",
+        "image": "assets/runes/main-runes/rare/2-2.png",
+        "grade": "rare",
+        "effect": "마법 압축! 스킬을 강화하여 적중시 20% 확률로 감전효과를 부여하여 5초간 대상이 입는 피해가 30% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "버거 파티 강화",
+        "image": "assets/runes/main-runes/rare/2-3.png",
+        "grade": "rare",
+        "effect": "버거파티 스킬을 강화하여 유지시간을 3초 증가시킵니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "소용돌이 강화",
+        "image": "assets/runes/main-runes/rare/2-4.png",
+        "grade": "rare",
+        "effect": "소용들이 스킬을 강화하여 피해량이 100% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "마법방패 강화",
+        "image": "assets/runes/main-runes/rare/2-5.png",
+        "grade": "rare",
+        "effect": "마법방패 스킬을 강화하여 지속시간동안 30% 확률로 공격을 무시합니다.( PVP에서는 효과가 적용되지 않습니다.)",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "검은 구름 강화",
+        "image": "assets/runes/main-runes/rare/2-6.png",
+        "grade": "rare",
+        "effect": "검은 구름 스킬 시전 시 검은 구름을 1개 추가로 소환합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "랜덤 희귀 스킬",
+        "image": "assets/runes/main-runes/rare/2-7.png",
+        "grade": "rare",
+        "effect": "장착 중인 희귀 스킬을 15초마다 사용합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "초토화 로켓 강화",
+        "image": "assets/runes/main-runes/rare/2-8.png",
+        "grade": "rare",
+        "effect": "초토화 로켓 스킬을 강화하여 폭발 범위를 확장하고 스킬 피해량이 150% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "폭탄 쥐 강화",
+        "image": "assets/runes/main-runes/rare/2-9.png",
+        "grade": "rare",
+        "effect": "폭탄 쥐 스킬을 강화하여 3마리를 추가로 소환하고\n스킬 피해량이 100% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "디저트 폭격 강화",
+        "image": "assets/runes/main-runes/rare/2-10.png",
+        "grade": "rare",
+        "effect": "디저트폭격을 강화하여 스킬 피해량 500% 피해를 주는 쿠키를 추가로 떨어뜨립니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "디너 타임 강화",
+        "image": "assets/runes/main-runes/rare/2-11.png",
+        "grade": "rare",
+        "effect": "디너타임 스킬을 강화하여 스킬 피해량의 150% 피해를 입히는 유도음식을 8개 추가로 소환합니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "생선폭우 강화",
+        "image": "assets/runes/main-runes/rare/2-12.png",
+        "grade": "rare",
+        "effect": "생선 폭우 스킬을 강화하여 스킬 피해량의 150% 피해를 입히는 붉은 생선 8개를 추가로 발사합니다.",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "치킨런 강화",
+        "image": "assets/runes/main-runes/rare/2-13.png",
+        "grade": "rare",
+        "effect": "치킨런 스킬을 강화하여 3마리를 추가로 소환하고\n스킬 피해량이 70% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "참새쫓기 강화",
+        "image": "assets/runes/main-runes/rare/2-14.png",
+        "grade": "rare",
+        "effect": "참새 쫓기 스킬을 강화하여 지속시간이 끝날 때 폭발하여 범위 내 적에게 최대 HP의 20% 피해를 입힙니다(보스 제외)",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "rare_rune",
+        "type": "main-rune",
+        "name": "슈퍼캣 강화II",
+        "image": "assets/runes/main-runes/rare/2-15.png",
+        "grade": "rare",
+        "effect": "슈퍼캣 스킬을 강화하여 2번 튕깁니다",
+        "holdEffect": "생선 제작 레벨 +2.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "하울링 강화",
+        "image": "assets/runes/main-runes/epic/3-1.png",
+        "grade": "epic",
+        "effect": "하울링 스킬을 강화하여 유지 시간을 5초 증가시킵니다.",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "마법석궁 강화",
+        "image": "assets/runes/main-runes/epic/3-2.png",
+        "grade": "epic",
+        "effect": "마법석궁 스킬을 강화하여 피해량이 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "버거 파티 강화2",
+        "image": "assets/runes/main-runes/epic/3-3.png",
+        "grade": "epic",
+        "effect": "버거파티 스킬을 강화하여 10% 확률로 전기 패티를 발사합니다. 전기 패티에 적중 시 감전 효과를 부여하여 5초간 대상이 입는 피해가 30% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "낭테오 강화",
+        "image": "assets/runes/main-runes/epic/3-4.png",
+        "grade": "epic",
+        "effect": "냥테오 스킬을 강화하여 스킬 피해량의 1000% 피해를 주는 거대한 운석을 추가로 떨어뜨립니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "고래 함선 강화",
+        "image": "assets/runes/main-runes/epic/3-5.png",
+        "grade": "epic",
+        "effect": "고래 함선 스킬을 강화하여 전방에 미사일을 지속적으로 발사합니다. 미사일은 스킬 피해량의 100% 피해를 입힙니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "먹물 뿌리기 강화",
+        "image": "assets/runes/main-runes/epic/3-6.png",
+        "grade": "epic",
+        "effect": "먹물 뿌리기 스킬을 강화하여 피해량이 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "마법 압축 강화2",
+        "image": "assets/runes/main-runes/epic/3-7.png",
+        "grade": "epic",
+        "effect": "마법 압축! 스킬을 강화하여 피해량이 500% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "소용돌이 강화2",
+        "image": "assets/runes/main-runes/epic/3-8.png",
+        "grade": "epic",
+        "effect": "소용돌이 스킬을 강화하여 유지시간을 5초 증가시킵니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "참새 쫓기 강화2",
+        "image": "assets/runes/main-runes/epic/3-9.png",
+        "grade": "epic",
+        "effect": "참새쫓기 스킬을 강화하여 유지시간을 3초 증가시킵니다.",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "검은 구름 강화",
+        "image": "assets/runes/main-runes/epic/3-10.png",
+        "grade": "epic",
+        "effect": "검은 구름 스킬을 강화하여 스킬 피해량이 300%\n증가하고 지속 시간을 5초 증가시킵니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "보름달 강화",
+        "image": "assets/runes/main-runes/epic/3-11.png",
+        "grade": "epic",
+        "effect": "보름달 스킬을 강화하여 거대 유지 시간을 5초 증가시킵니다.",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "랜덤 영웅 스킬",
+        "image": "assets/runes/main-runes/epic/3-12.png",
+        "grade": "epic",
+        "effect": "장착중인 영웅 스킬을 15초마다 사용합니다",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "epic_rune",
+        "type": "main-rune",
+        "name": "고양이 광선 강화",
+        "image": "assets/runes/main-runes/epic/3-13.png",
+        "grade": "epic",
+        "effect": "고양이 광선 스킬을 강화하여 스킬 피해량이 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +4.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "랜덤 전설 스킬",
+        "image": "assets/runes/main-runes/legendary/4-1.png",
+        "grade": "legendary",
+        "effect": "장착중인 전설스킬을 15초마다 사용합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "고양이 신선 강화",
+        "image": "assets/runes/main-runes/legendary/4-2.png",
+        "grade": "legendary",
+        "effect": "붉은 구름이 2배로 소환되며, 가하는 대미지가 2000% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "포탄세례 강화",
+        "image": "assets/runes/main-runes/legendary/4-3.png",
+        "grade": "legendary",
+        "effect": "포탄세례 스킬이 떨어뜨리는 포탄의 양이 5배로 증가하며 스킬 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "할퀴기 강화",
+        "image": "assets/runes/main-runes/legendary/4-4.png",
+        "grade": "legendary",
+        "effect": "할퀴기 스킬을 강화하여 넓은 범위에 피해를 입히며, 스킬 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "고양이 광선 소환",
+        "image": "assets/runes/main-runes/legendary/4-5.png",
+        "grade": "legendary",
+        "effect": "고양이 타입 스킬 시전 시 30% 확률로 고양이 광선 스킬을 추가 사용합니다. 고양이 광선 스킬이 치명타로 입히는 피해가 추가로 500% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "구름 강화2",
+        "image": "assets/runes/main-runes/legendary/4-6.png",
+        "grade": "legendary",
+        "effect": "구름 타입 스킬의 지속시간이 5초 증가하고 구름 타입 스킬의 피해가 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "고양이 감전",
+        "image": "assets/runes/main-runes/legendary/4-7.png",
+        "grade": "legendary",
+        "effect": "고양이 타입 스킬 적중 시 10% 확률로 감전 효과를 부여하여 5초간 대상이 입는 피해가 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "해적x2",
+        "image": "assets/runes/main-runes/legendary/4-8.png",
+        "grade": "legendary",
+        "effect": "해적 타입 스킬 시전 시 30% 확률로 한번 더 사용합니다. 한번 더 사용한 스킬은 스킬 피해량이 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "고래 함선 강화II",
+        "image": "assets/runes/main-runes/legendary/4-9.png",
+        "grade": "legendary",
+        "effect": "고래 함선 스킬을 강화하여 전방에 미사일을 지속적으로 발사합니다. 미사일은 스킬 피해량의 1000% 피해를 입힙니다  ",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "메론빵 블레이드 강화",
+        "image": "assets/runes/main-runes/legendary/4-10.png",
+        "grade": "legendary",
+        "effect": "[헤롱] 디버프 지속시간이 3초 증가하고, [헤롱]\n디버프 대상이 디저트 타입에게 받는 피해량이 1000% 증가합니다",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "블랙홀 강화",
+        "image": "assets/runes/main-runes/legendary/4-11.png",
+        "grade": "legendary",
+        "effect": "블랙홀 스킬을 강화하여 시전 시 전기 충격파를 생성합니다. 전기 충격파는 공격력의 2000% 피해를 입히고, 감전 효과를 부여하여 5초간 대상이 입는 \n피해가 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "심판의 시간 강화",
+        "image": "assets/runes/main-runes/legendary/4-12.png",
+        "grade": "legendary",
+        "effect": "심판의 시간 스킬의 지속시간이 5초 증가하고, 바다의 심판 스킬이 입히는 데미지가 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "매콤한 저주 강화",
+        "image": "assets/runes/main-runes/legendary/4-13.png",
+        "grade": "legendary",
+        "effect": "매콤한 저주의 초당 타격횟수가 2배로 증가합니다.\n또한 적의 받는 피해량이 5배로 누적되고,\n누적 최대치도 5배로 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "녹턴 강화",
+        "image": "assets/runes/main-runes/legendary/4-14.png",
+        "grade": "legendary",
+        "effect": "녹턴의 공포 표식을받은 대상은 입는 피해량이 500% 증가하고, 녹턴 범위 피해량이 500% 증가합니다. ",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "사냥개시 강화",
+        "image": "assets/runes/main-runes/legendary/4-15.png",
+        "grade": "legendary",
+        "effect": "사냥 개시 스킬의 지속시간이 5초 증가하고, 피해량 증가 효과가 4배로 적용됩니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "캣 히어로즈",
+        "image": "assets/runes/main-runes/legendary/4-16.png",
+        "grade": "legendary",
+        "effect": "캣 히어로즈 스킬을 강화하여 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "핫도그 공포",
+        "image": "assets/runes/main-runes/legendary/4-17.png",
+        "grade": "legendary",
+        "effect": "핫도그 난타 스킬 적중 시 100% 확률로 적에게 공포 효과를 부여하며, 5초간 대상이 입는 피해가 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "별똥별 소환 강화",
+        "image": "assets/runes/main-runes/legendary/4-18.png",
+        "grade": "legendary",
+        "effect": "별똥별 소환 스킬 피해량이 추가로 1000% 증가하고 별 생성에 필요한 포탄 세례 타격 수가 1회 감소합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "파티 타임 강화",
+        "image": "assets/runes/main-runes/legendary/4-19.png",
+        "grade": "legendary",
+        "effect": "파티타임 스킬을 강화하여 유지 시간을 5초 증가시키고, 파티 타임 효과가 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "레이저 소환 강화",
+        "image": "assets/runes/main-runes/legendary/4-20.png",
+        "grade": "legendary",
+        "effect": "레이저 소환 스킬에 적중한 대상에게 [분해]상태를 부여합니다. [분해] 상태의 대상은 5초간 받는 피해가 100% 증가하고, 고양이 타입 스킬로 받는 피해가 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "포식자의 참격 강화",
+        "image": "assets/runes/main-runes/legendary/4-21.png",
+        "grade": "legendary",
+        "effect": "포식자의 참격 스킬 쿨타임이 30% 감소하고\n피해량이 500% 추가로 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "고래 총공격 강화",
+        "image": "assets/runes/main-runes/legendary/4-22.png",
+        "grade": "legendary",
+        "effect": "고래 총공격 스킬을 강화하여 지속시간이 3초 증가하고 스킬 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "불사조 소환 강화",
+        "image": "assets/runes/main-runes/legendary/4-23.png",
+        "grade": "legendary",
+        "effect": "불사조 소환이 초당 입히는 피해량이 1000% 증가하고 화상 디버프 지속시간이 2초 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "종말의 탄환 강화",
+        "image": "assets/runes/main-runes/legendary/4-24.png",
+        "grade": "legendary",
+        "effect": "종말의 탄환 스킬의 최대 탄환 수가 1개 증가하고\n스킬 피해량이 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "야성본능 강화",
+        "image": "assets/runes/main-runes/legendary/4-25.png",
+        "grade": "legendary",
+        "effect": "야성본능의 늑대 치명타 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "해적 표식 강화",
+        "image": "assets/runes/main-runes/legendary/4-26.png",
+        "grade": "legendary",
+        "effect": "해적 표식 폭발 피해량이 500% 추가로 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "사탕 굴러가요 강화",
+        "image": "assets/runes/main-runes/legendary/4-27.png",
+        "grade": "legendary",
+        "effect": "사탕 개수가 2배로 증가하고 스킬 피해량이 500% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "벨루나의 가호 강화",
+        "image": "assets/runes/main-runes/legendary/4-28.png",
+        "grade": "legendary",
+        "effect": "벨루나의 가호 스킬의 효과가 500% 증가하고,\n지속시간이 5초 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "폭발 빵 강화",
+        "image": "assets/runes/main-runes/legendary/4-29.png",
+        "grade": "legendary",
+        "effect": "빵 폭발 스킬을 강화하여 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "발도술 강화",
+        "image": "assets/runes/main-runes/legendary/4-30.png",
+        "grade": "legendary",
+        "effect": "발도술의 상처 지속시간이 5초 증가하고, [상처]\n디버프 대상이 입는 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "초콜릿 분수 강화",
+        "image": "assets/runes/main-runes/legendary/4-31.png",
+        "grade": "legendary",
+        "effect": "초콜릿 분수 지속시간이 5초 증가하고 초콜릿 분수로 강화된 스킬 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "토핑 폭격 강화",
+        "image": "assets/runes/main-runes/legendary/4-32.png",
+        "grade": "legendary",
+        "effect": "토핑 폭격 시마다 무작위 토핑 20개를 추가로 떨어뜨리며, 디버프 지속시간이 5초 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "상어 표식 강화",
+        "image": "assets/runes/main-runes/legendary/4-33.png",
+        "grade": "legendary",
+        "effect": "상어 표식 대상이 입는 피해가 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "초토화 로켓 강화",
+        "image": "assets/runes/main-runes/legendary/4-34.png",
+        "grade": "legendary",
+        "effect": "초토화 로켓 스킬을 강화하여 폭발 범위를 확장하고 스킬 피해량이 1000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "legend_rune",
+        "type": "main-rune",
+        "name": "포식자의 낙인 강화",
+        "image": "assets/runes/main-runes/legendary/4-35.png",
+        "grade": "legendary",
+        "effect": "포식자의 낙인의 [파괴] 최대 중첩이 3배가 되며\n중첩 당 효과가 200%로 적용됩니다",
+        "holdEffect": "생선 제작 레벨 +10.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "고래 총공격 강화2",
+        "image": "assets/runes/main-runes/mythic/5-1.png",
+        "grade": "mythic",
+        "effect": "고래 총공격 스킬을강화하여 지속시간이 5초 증가하고 추가 피해량이 10000% 증가합니다. ",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "종말의 탄환 강화2",
+        "image": "assets/runes/main-runes/mythic/5-2.png",
+        "grade": "mythic",
+        "effect": "종말의 탄환 스킬을 강화하여 추가 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "매콤한 저주 강화2",
+        "image": "assets/runes/main-runes/mythic/5-3.png",
+        "grade": "mythic",
+        "effect": "매콤한 저주의 매콤 효과에 걸린 적이 받는 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "포탄세례 강화2",
+        "image": "assets/runes/main-runes/mythic/5-4.png",
+        "grade": "mythic",
+        "effect": "포탄 세례 스킬을 강화하여 추가 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "야성본능 강화2",
+        "image": "assets/runes/main-runes/mythic/5-5.png",
+        "grade": "mythic",
+        "effect": "야성본능의 늑대 치명타 피해량이 10000% 추가로 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "사냥개시 강화2",
+        "image": "assets/runes/main-runes/mythic/5-6.png",
+        "grade": "mythic",
+        "effect": "사냥 개시 스킬의 지속시간이 10초 증가하고 늑대 스킬의 피해량이 추가로 4000% 증가합니다. ",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "수호천사",
+        "image": "assets/runes/main-runes/mythic/5-7.png",
+        "grade": "mythic",
+        "effect": "사망 시 부활합니다. 부활 후 5초간 최종 피해량이\n10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "심판의 시간 강화2",
+        "image": "assets/runes/main-runes/mythic/5-8.png",
+        "grade": "mythic",
+        "effect": "바다의 심판 스킬이 입히는 추가 데미지가 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "할퀴기 강화2",
+        "image": "assets/runes/main-runes/mythic/5-9.png",
+        "grade": "mythic",
+        "effect": "할퀴기 스킬을 강화하여 넓은 범위에 피해를 입히며, 스킬 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "불사조 소환 강화2",
+        "image": "assets/runes/main-runes/mythic/5-10.png",
+        "grade": "mythic",
+        "effect": "불사조 소환이 초당 입히는 추가 피해량이 10000% 증가하고 화상 디버프 지속시간이 2배 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "별똥별 소환 강화2",
+        "image": "assets/runes/main-runes/mythic/5-11.png",
+        "grade": "mythic",
+        "effect": "별똥별 소환 스킬 피해량이 추가로 10000% 증가하고 최대 연쇄 폭발 수가 2회 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "메론빵 블레이드 강화2",
+        "image": "assets/runes/main-runes/mythic/5-12.png",
+        "grade": "mythic",
+        "effect": "[헤롱] 디버프 대상이 받는 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "초콜릿 분수 강화2",
+        "image": "assets/runes/main-runes/mythic/5-13.png",
+        "grade": "mythic",
+        "effect": "초콜릿 분수로 강화된 스킬 피해량이 10000% 추가로 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "캣 히어로즈 강화",
+        "image": "assets/runes/main-runes/mythic/5-14.png",
+        "grade": "mythic",
+        "effect": "캣 히어로즈 스킬을 강화하여 추가 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "바다의 처형 강화",
+        "image": "assets/runes/main-runes/mythic/5-15.png",
+        "grade": "mythic",
+        "effect": "상어 표식이 남은 대상에게 받는 피해가 50% 감소하고, 상어 표식 대상이 입는 피해가 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "포식자의 참격 강화2",
+        "image": "assets/runes/main-runes/mythic/5-16.png",
+        "grade": "mythic",
+        "effect": "포식자의 참격 스킬 피해량이 10000% 추가로 증가합니다. ",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "상처 강화",
+        "image": "assets/runes/main-runes/mythic/5-17.png",
+        "grade": "mythic",
+        "effect": "[상처] 디버프 대상이 입는 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "고양이 광선 강화2",
+        "image": "assets/runes/main-runes/mythic/5-18.png",
+        "grade": "mythic",
+        "effect": "고양이 광선 스킬을 강화하여 추가 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "고양이 신선 강화2",
+        "image": "assets/runes/main-runes/mythic/5-19.png",
+        "grade": "mythic",
+        "effect": "고양이 신선 스킬을 강화하여 추가 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "mythic_rune",
+        "type": "main-rune",
+        "name": "초토화 로켓 강화2",
+        "image": "assets/runes/main-runes/mythic/5-20.png",
+        "grade": "mythic",
+        "effect": "초토화 로켓 스킬을 강화하여 폭발 범위를 확장하고 스킬 피해량이 10000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +40.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "파도가 몰려온다",
+        "image": "assets/runes/main-runes/ascension/6-1.png",
+        "grade": "ascension",
+        "effect": "상어 표식 대상이 입는 피해가 100000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "포오오오탄 세례",
+        "image": "assets/runes/main-runes/ascension/6-2.png",
+        "grade": "ascension",
+        "effect": "포탄 세례 스킬을 강화하여 추가 피해량이 100000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "핫 매워매워",
+        "image": "assets/runes/main-runes/ascension/6-3.png",
+        "grade": "ascension",
+        "effect": "매콤한 저주의 매콤 효과에 걸린 적이 받는 피해량이 100000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "사냥타임!",
+        "image": "assets/runes/main-runes/ascension/6-4.png",
+        "grade": "ascension",
+        "effect": "사냥 개시 스킬의 지속 시간이 10초 증가하고, 늑대 스킬의 피해량이 추가로 40000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "불사조의 분노",
+        "image": "assets/runes/main-runes/ascension/6-5.png",
+        "grade": "ascension",
+        "effect": "불사조 소환 이 초당 입히는 추가 피해량이 40000% 증가하고 화상 디버프 지속 시간이 5배 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "늑대가 나타났다",
+        "image": "assets/runes/main-runes/ascension/6-6.png",
+        "grade": "ascension",
+        "effect": "야성본능의 늑대 치명타 피해량이 100000% 추가로 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "일도냥단",
+        "image": "assets/runes/main-runes/ascension/6-7.png",
+        "grade": "ascension",
+        "effect": "[상처] 디버프 대상이 입는 피해량이 100000% 증가합니다.",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    },
+    {
+        "id": "Ascension_rune",
+        "type": "main-rune",
+        "name": "번개와 고양이",
+        "image": "assets/runes/main-runes/ascension/6-8.png",
+        "grade": "ascension",
+        "effect": "고양이 신선 스킬을강화하여 추가 피해량이 100000% 증가합니다. ",
+        "holdEffect": "생선 제작 레벨 +100.00"
+    }
+]

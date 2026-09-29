@@ -1,0 +1,581 @@
+[{
+        "id": "common_skill",
+        "type": ["음식"],
+        "name": "디너타임",
+        "image": "assets/skills/common/k.1-1.png",
+        "grade": "common",
+        "cooldown": "13.3초",
+        "effect": "공격력 42%의 피해를 입히는 유도음식 8개를 \n소환합니다.",
+        "holdEffect": "공격력 증폭 +1%"
+    },
+    {
+        "id": "common_skill",
+        "type": ["기계"],
+        "name": "폭탄 쥐",
+        "image": "assets/skills/common/k.1-2.png",
+        "grade": "common",
+        "cooldown": "8.7초",
+        "effect": "잠시 후 폭발하는 쥐 로봇을 소환하여 공격력 85%만큼의 범위 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +1%"
+    },
+    {
+        "id": "common_skill",
+        "type": ["고양이"],
+        "name": "슈퍼캣",
+        "image": "assets/skills/common/k.1-3.png",
+        "grade": "common",
+        "cooldown": "8.7초",
+        "effect": "슈퍼캣이 날아가 공격력 178%만큼의 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +1%"
+    },
+    {
+        "id": "common_skill",
+        "type": ["마법"],
+        "name": "마법 서커스",
+        "image": "assets/skills/common/k.1-4.png",
+        "grade": "common",
+        "cooldown": "8.7초",
+        "effect": "4초동안 공격력 53%의 피해를 입히는 공을 1초에 2번 던집니다.",
+        "holdEffect": "공격력 증폭 +1%"
+    },
+    {
+        "id": "uncommon_skill",
+        "type": ["음식", "디저트"],
+        "name": "디저트 폭격",
+        "image": "assets/skills/uncommon/k.2-1.png",
+        "grade": "uncommon",
+        "cooldown": "13.3초",
+        "effect": "디저트 5개를 떨어뜨려 충돌하는 모든 적에게\n공격력 45%의 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +2%"
+    },
+    {
+        "id": "uncommon_skill",
+        "type": ["식물"],
+        "name": "나뭇잎 가르기",
+        "image": "assets/skills/uncommon/k.2-2.png",
+        "grade": "uncommon",
+        "cooldown": "6.7초",
+        "effect": "직선 범위 내 대상에게 공격력 14%만큼의 피해를\n입힙니다.",
+        "holdEffect": "공격력 증폭 +2%"
+    },
+    {
+        "id": "uncommon_skill",
+        "type": ["마법"],
+        "name": "서리 파편",
+        "image": "assets/skills/uncommon/k.2-3.png",
+        "grade": "uncommon",
+        "cooldown": "13.3초",
+        "effect": "회전하며 파편을 흩뿌리는 얼음구를 소환합니다.\n파편은 공격력 18%만큼의 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +2%"
+    },
+    {
+        "id": "uncommon_skill",
+        "type": ["고양이", "용"],
+        "name": "샤샤샤샥",
+        "image": "assets/skills/uncommon/k.2-4.png",
+        "grade": "uncommon",
+        "cooldown": "8.7초",
+        "effect": "날카롭게 할퀴어 공격력 32%만큼의 피해를 12회 입힙니다.",
+        "holdEffect": "공격력 증폭 +2%"
+    },
+    {
+        "id": "uncommon_skill",
+        "type": ["버프", "늑대"],
+        "name": "화난다!",
+        "image": "assets/skills/uncommon/k.2-5.png",
+        "grade": "uncommon",
+        "cooldown": "14초",
+        "effect": "5초동안 공격속도가 40% 증가합니다. \n화난다 효과는 중첩 가능합니다.",
+        "holdEffect": "공격력 증폭 +2%"
+    },
+    {
+        "id": "uncommon_skill",
+        "type": ["기계", "해적", "상어"],
+        "name": "초토화 로켓",
+        "image": "assets/skills/uncommon/k.2-6.png",
+        "grade": "uncommon",
+        "cooldown": "8.7초",
+        "effect": "초토화 로켓을 발사하여 공격력 107%만큼의\n범위피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +2%"
+    },
+    {
+        "id": "rare_skill",
+        "type": ["고양이"],
+        "name": "생선 폭우",
+        "image": "assets/skills/rare/k.3-1.png",
+        "grade": "rare",
+        "cooldown": "13.3초",
+        "effect": "공격력 60%의 피해를 입히는 유도생선 12개를\n소환합니다.",
+        "holdEffect": "공격력 증폭 +5%"
+    },
+    {
+        "id": "rare_skill",
+        "type": [],
+        "name": "참새 쫓기",
+        "image": "assets/skills/rare/k.3-2.png",
+        "grade": "rare",
+        "cooldown": "25.3초",
+        "effect": "허수아비를 3초간 소환하여 매초마다 공격력의\n7% 범위 피해를 입히고, 공포 효과를 부여하여\n2초간 대상이 입는 피해가 50% 증가합니다.",
+        "holdEffect": "공격력 증폭 +5%"
+    },
+    {
+        "id": "rare_skill",
+        "type": ["마법"],
+        "name": "소용돌이",
+        "image": "assets/skills/rare/k.3-3.png",
+        "grade": "rare",
+        "cooldown": "16.7초",
+        "effect": "범위 내 대상에게 공격력 13%의 피해를 1초에\n4번 입히는 소용돌이를 5초동안 생성합니다.",
+        "holdEffect": "공격력 증폭 +5%"
+    },
+    {
+        "id": "rare_skill",
+        "type": ["버프", "마법"],
+        "name": "마법방패",
+        "image": "assets/skills/rare/k.3-4.png",
+        "grade": "rare",
+        "cooldown": "16.7초",
+        "effect": "13초동안 받는 피해가 30% 감소합니다.",
+        "holdEffect": "공격력 증폭 +5%"
+    },
+    {
+        "id": "rare_skill",
+        "type": ["닭", "기계"],
+        "name": "치킨런",
+        "image": "assets/skills/rare/k.3-5.png",
+        "grade": "rare",
+        "cooldown": "13.3초",
+        "effect": "잠시 후 폭발하는 닭 3기를 소환하여\n공격력 79%만큼의 범위 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +5%"
+    },
+    {
+        "id": "rare_skill",
+        "type": ["마법"],
+        "name": "마법 압축!",
+        "image": "assets/skills/rare/k.3-6.png",
+        "grade": "rare",
+        "cooldown": "13.3초",
+        "effect": "공격력 45% 범위 피해를 입히고 가운데로 \n끌어당깁니다.",
+        "holdEffect": "공격력 증폭 +5%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["버프", "늑대"],
+        "name": "하울링",
+        "image": "assets/skills/epic/k.4-1.png",
+        "grade": "epic",
+        "cooldown": "20초",
+        "effect": "5초간 전설 이하 등급 스킬의 피해량이 300%\n증가합니다. 하울링 효과는 중첩 가능합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["마법", "구름"],
+        "name": "검은 구름",
+        "image": "assets/skills/epic/k.4-2.png",
+        "grade": "epic",
+        "cooldown": "10초",
+        "effect": "3초간 검은 구름을 소환하여 터치 공격 시\n공격력 200%의 피해를 입히는 관통번개를\n발사합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["해적"],
+        "name": "먹물 뿌리기",
+        "image": "assets/skills/epic/k.4-3.png",
+        "grade": "epic",
+        "cooldown": "16초",
+        "effect": "해적 문어를 소환해 범위 내 대상에게 먹물을 뿌려 1000% 만큼의 범위피해를 입히고 실명 효과를 부여하여 8초동안 대상의 공격력이 40% 감소합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["햄버거", "음식"],
+        "name": "버거파티",
+        "image": "assets/skills/epic/k.4-4.png",
+        "grade": "epic",
+        "cooldown": "25.3초",
+        "effect": "4초동안 공격력 350%의 피해를 입히는 공을\n1초에 2번 던집니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["마법"],
+        "name": "마법석궁",
+        "image": "assets/skills/epic/k.4-5.png",
+        "grade": "epic",
+        "cooldown": "40초",
+        "effect": "마법석궁을 5초동안 소환하여 공격력 240%의\n피해를 입히는 관통화살을 1초에 5번 발사합니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["늑대", "버프", "마법"],
+        "name": "보름달",
+        "image": "assets/skills/epic/k.4-6.png",
+        "grade": "epic",
+        "cooldown": "40초",
+        "effect": "5초동안 거대해지며, 기본 공격 시 달모양 생선을\n추가로 6개 더 던집니다. 추가 생선은 공격력의\n80% 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["고양이", "마법"],
+        "name": "냥테오",
+        "image": "assets/skills/epic/k.4-7.png",
+        "grade": "epic",
+        "cooldown": "33.3초",
+        "effect": "냥테오 15개를 떨어뜨려 충돌하는 모든 적에게\n공격력 600% 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "epic_skill",
+        "type": ["고양이", "기계"],
+        "name": "고양이 광선",
+        "image": "assets/skills/epic/k.4-8.png",
+        "grade": "epic",
+        "cooldown": "40초",
+        "effect": "광선빔을 발사하는 고양이 로봇을 10초동안\n소환합니다. 광선빔은 범위 내 대상에게\n공격력 400%의 피해를 1초에 3회 입힙니다.",
+        "holdEffect": "공격력 증폭 +10%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["버프", "고양이", "그림자"],
+        "name": "사신의 계약",
+        "image": "assets/skills/legendary/k.5-1.png",
+        "grade": "legendary",
+        "cooldown": "40초",
+        "effect": "5초 동안 치명타 확률을 10% 획득합니다.\n장착한 그림자 동료 하나 당 치명타 확률을\n추가로 5% 획득합니다. 치명타 확률이 100%를\n초과한 경우 초과한 수치 * 2.0배 만큼 그림자\n타입 스킬의 치명타 데미지가 추가로 증가합니다",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["고양이", "그림자"],
+        "name": "그림자 일격",
+        "image": "assets/skills/legendary/k.5-2.png",
+        "grade": "legendary",
+        "cooldown": "8.7초",
+        "effect": "전방의 적들을 베어 2000% 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["음식", "매콤"],
+        "name": "핫도그 난타",
+        "image": "assets/skills/legendary/k.5-3.png",
+        "grade": "legendary",
+        "cooldown": "50초",
+        "effect": "대형 핫도그가 적을 마구 내리칩니다.\n스킬은 5초간 지속되며 초당 3회 타격합니다.\n매 타격당 1200% 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["버프", "음식"],
+        "name": "파티 타임",
+        "image": "assets/skills/legendary/k.5-4.png",
+        "grade": "legendary",
+        "cooldown": "50초",
+        "effect": "파티가 시작됩니다! 10초간 모든 음식 스킬\n피해량이 1000% 증가합니다. 파티 타임 효과는\n중첩 가능합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["늑대"],
+        "name": "할퀴기",
+        "image": "assets/skills/legendary/k.5-5.png",
+        "grade": "legendary",
+        "cooldown": "8.7초",
+        "effect": "늑대 발톱으로 적을 할퀴어 1500%만큼의 피해를\n2번 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["해적", "고양이"],
+        "name": "해적 표식",
+        "image": "assets/skills/legendary/k.5-6.png",
+        "grade": "legendary",
+        "cooldown": "12.5초",
+        "effect": "해적 고양이를 소환해 모든 적에게\n해적 표식을 남깁니다.\n표식이 남은 대상을 고양이나 해적 타입의\n스킬로 공격 시 표식이 터지며 300% 추가\n피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["해적", "용"],
+        "name": "녹턴 소환",
+        "image": "assets/skills/legendary/k.5-7.png",
+        "grade": "legendary",
+        "cooldown": "50초",
+        "effect": "녹턴을 소환해 공격력 3000%만큼의 범위 피해를 입히고 공포 효과를 부여하며 5초동안 대상이 입는 피해가 50% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["마법"],
+        "name": "블랙홀",
+        "image": "assets/skills/legendary/k.5-8.png",
+        "grade": "legendary",
+        "cooldown": "10초",
+        "effect": "범위 내 대상에게 공격력 300%의 피해를 1초에 2번 입히고 가운데로 끌어당기는 블랙홀을 5초동안 생성합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["고래", "기계", "해적"],
+        "name": "고래 함선",
+        "image": "assets/skills/legendary/k.5-9.png",
+        "grade": "legendary",
+        "cooldown": "43.3초",
+        "effect": "범위 내 대상에게 공격력 1200%의 피해를 1초에 3번 입히며 진격하는 고래 함선을 소환합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["버프", "늑대"],
+        "name": "혼의 울림",
+        "image": "assets/skills/legendary/k.5-10.png",
+        "grade": "legendary",
+        "cooldown": "66.7초",
+        "effect": "7초 동안 플레이어와 모든 동료의 공격속도가 최대 100%(기본 공격속도)로 제한됩니다. 플레이어의 공격속도 최대치를 초과한 수치만큼 늑대 타입 스킬의 피해량이 증가하며, 초과분의 300%만큼 할퀴기 스킬의 피해량이 추가로 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["고양이", "구름", "기계"],
+        "name": "레이저 소환",
+        "image": "assets/skills/legendary/k.5-11.png",
+        "grade": "legendary",
+        "cooldown": "12.5초",
+        "effect": "레이저를 소환하여 5초 동안 1200%의 피해를 1초에 5회 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["버프", "늑대", "기계"],
+        "name": "달의 분노",
+        "image": "assets/skills/legendary/k.5-12.png",
+        "grade": "legendary",
+        "cooldown": "26.7초",
+        "effect": "달의 분노를 제외한 장착중인 늑대 타입 스킬을 모두 1회 사용합니다. 또한 10초동안 늑대 타입 스킬 피해 증폭이 400% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["상어", "해적"],
+        "name": "포식자의 낙인",
+        "image": "assets/skills/legendary/k.5-13.png",
+        "grade": "legendary",
+        "cooldown": "40초",
+        "effect": "적에게 2000%의 피해를 입히고 5초간 포식자의 낙인을 남깁니다. 낙인이 있는 대상에게 상어 타입 스킬 사용 시 파괴 디버프가 부여됩니다.\n파괴 디버프는 최대 5중첩까지 가능하며 중첩 당\n적이 상어 타입 스킬로 받는 피해량이 100% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["음식", "디저트"],
+        "name": "빵 폭발",
+        "image": "assets/skills/legendary/k.5-14.png",
+        "grade": "legendary",
+        "cooldown": "12.5초",
+        "effect": "빵이 폭발하며 적들에게 3600% 피해를 2번 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["음식", "디저트"],
+        "name": "사탕 굴러가요",
+        "image": "assets/skills/legendary/k.5-15.png",
+        "grade": "legendary",
+        "cooldown": "50초",
+        "effect": "쿠키들이 거대한 사탕을 타고 돌진합니다.\n적에게 1200%만큼의 피해를 9번 입힙니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["버프", "늑대", "그림자"],
+        "name": "그림자 혼식",
+        "image": "assets/skills/legendary/k.5-16.png",
+        "grade": "legendary",
+        "cooldown": "50초",
+        "effect": "그림자 혼식은 10초간 지속됩니다. 스킬이 활성화된 동안 [늑대, 그림자]타입 스킬로 적에게 피해를 입히면 해당 적에게 공포 효과를 부여합니다. 공포 효과가 적용된 적은 받는 피해가 500% 증가합니다. (*그림자 혼식 효과는 중첩 가능합니다.)",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "legendary_skill",
+        "type": ["음식", "매콤"],
+        "name": "토핑 폭격",
+        "image": "assets/skills/legendary/k.5-17.png",
+        "grade": "legendary",
+        "cooldown": "11.4초",
+        "effect": "3개의 피자 재료가 랜덤으로 떨어져서 500% 피해를 입히고 10% 확률로 5초간 유지되는 디버프를 부여합니다. 각 디버프는 곱연산으로 중첩됩니다.(디버프 : 쇠약, 저주, 둔화, 절망)\n\n(파인애플)쇠약: 상대방이 입히는 피해량이 2.5% 감소합니다.\n(페퍼로니)저주: 상대방의 치명타 확률이 2.5% 감소합니다.\n(포테이토)둔화: 상대방의 공격속도가 2.5% 감소합니다.\n(고추):절망: 상대방이 받는 피해가 2.5% 증가합니다.",
+        "holdEffect": "공격력 증폭 +40%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["음식", "매콤"],
+        "name": "매콤한 저주",
+        "image": "assets/skills/mythic/k.6-1.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "적에게 매콤한 주문을 겁니다. 주문은 10초 동안 적에게 초당 2번의 5000% 피해를 입히며, 지속시간 동안 적이 매콤 타입 스킬에 피해를 입을 때마다 매콤 효과를 누적시켜 음식 타입 스킬에 받는 피해량을 400%씩 증가시킵니다. (매콤효과는 50번까지 중첩됩니다.)",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["해적"],
+        "name": "포탄 세례",
+        "image": "assets/skills/mythic/k.6-2.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "하늘에서 수많은 포탄을 쏟아붓습니다.\n스킬은 20초간 지속되며 초당 5개의 포탄을 쏟아붓습니다. 포탄 하나당 적에게 60000% 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["버프", "상어", "해적"],
+        "name": "심판의 시간",
+        "image": "assets/skills/mythic/k.6-3.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "10초 동안 심판의 시간이 시작됩니다. 지속시간동안 초토화 로켓과 특제 상어 미사일 로켓 스킬이 신화 등급 스킬인 [바다의 심판]으로 변경되며,재사용 대기시간이 90% 감소합니다.\n\n[바다의 심판]은 초토화 로켓과 특제 상어 미사일,특대형 상어 미사일 피해량의 20000% 추가 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["버프", "늑대"],
+        "name": "야성본능",
+        "image": "assets/skills/mythic/k.6-4.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "8초 동안 장착한 늑대 동료 1마리당 늑대 치명타 확률이 5% 증가합니다. 늑대 치명타는 기존 치명타 피해량의 3000% 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고양이", "마법", "구름"],
+        "name": "고양이 신선",
+        "image": "assets/skills/mythic/k.6-5.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "고양이 신선을 소환합니다. 고양이 신선은 붉은 번개를 떨어뜨리는 구름을 3개 소환합니다. 소환된 구름은 10초간 지속되며 초당 4번 피해를 입힙니다. 붉은 번개는 처음 공격 시 공격력의 20000% 피해를 입히고, 적을 2번 공격할 때마다 피해량이 20%만큼 곱으로 증가합니다. 데미지 증가는 최대 10회 누적됩니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["버프", "고양이", "구름", "마법"],
+        "name": "캣 히어로즈",
+        "image": "assets/skills/mythic/k.6-6.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "10초간 하늘에 문을 열어, 전설 등급 이하의 고양이 타입 스킬 시전 시 강화된 스킬을 추가 사용합니다. 강화된 스킬은 기존 스킬 피해의 20000% 추가 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["해적", "고래", "버프"],
+        "name": "벨루나의 가호",
+        "image": "assets/skills/mythic/k.6-7.png",
+        "grade": "mythic",
+        "cooldown": "45.5초",
+        "effect": "장착한 고래 동료 수에 따라 6초간 아래와 같은 효과를 얻습니다.\n\n2세트 효과 -> 지속시간동안 고래 타입 스킬이 입히는 데미지 500% 증가\n3세트 효과 -> 지속시간동안 고래 타입 스킬이 입히는 데미지 1000% 증가\n4세트 효과 -> 지속시간동안 고래타입 동료 하나당 고래 타입 스킬이 입히는 데미지 5000% 증",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고유", "해적", "상어"],
+        "name": "바다의 처형",
+        "image": "assets/skills/mythic/k.6-8.png",
+        "grade": "mythic",
+        "cooldown": "24.2초",
+        "effect": "모든 적에게 상어 표식을 남깁니다. 상어 표식은 대상이 받는 피해를 저장합니다. 2초 뒤 공격력의 30000% 피해를 입히고 상어 표식에 저장된 피해량의 15000% 만큼 고정피해를 입힙니다.\n\n고정피해: 버프나 디버프의 영향을 받지 않으며, 반드시 명중하는 피해입니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["해적"],
+        "name": "별똥별 소환",
+        "image": "assets/skills/mythic/k.6-9.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "별똥별이 떨어집니다. 포탄 세례 5발 마다 별똥별이 추가로 낙하하며, 별자리를 형성합니다.\n별자리는 스킬 시전 후 3초 뒤부터 0.2초 간격으로 연쇄폭발을 일으킵니다. 연쇄폭발은 최대 5회까지 발생하며, 폭발할 때마다 누적된 포탄 세례 스킬 데미지의 500% 만큼 추가 피해를 입힙니다.\n이 추가 피해는 연쇄 폭발이 일어날 때마다 2배씩 추가로 누적 증가합니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["늑대", "그림자"],
+        "name": "포식자의 참격",
+        "image": "assets/skills/mythic/k.6-10.png",
+        "grade": "mythic",
+        "cooldown": "30.3초",
+        "effect": "공간을 가르는 참격을 가합니다. 참격은 시전할 때마다 횟수가 번갈아 적용됩니다. \n(2회 -> 3회 -> 2회 -> 3회)\n각각의 참격은 적에게 5000000%의 피해를 입힙니다. 연속으로 벨 경우 참격의 데미지가 추가로 200% 증가합니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["버프", "음식", "디저트"],
+        "name": "초콜릿 분수",
+        "image": "assets/skills/mythic/k.6-11.png",
+        "grade": "mythic",
+        "cooldown": "45.5초",
+        "effect": "5초 동안 초콜릿 분수를 소환해 5000%의 피해를 1초에 3번 입힙니다. 스킬 지속시간 동안 전설 등급 이하의 디저트 타입 스킬 사용 시 초콜릿 스킬로 강화되고 기존 스킬 피해의 20000% 추가 피해를 입힙니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고유", "고양이", "기계"],
+        "name": "발도술",
+        "image": "assets/skills/mythic/k.6-12.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "전방의 모든 적을 베어 [상처] 디버프를 적용하며, 공격력의 50000% 피해를 입힙니다. [상처]는 고양이, 기계 타입 스킬에 받는 피해를 60000% 증가시키며, 6초간 지속됩니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고유", "음식", "디저트"],
+        "name": "메론빵 블레이드",
+        "image": "assets/skills/mythic/k.6-13.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "메론빵이 돌진합니다. 메론빵과 부딫힌 적에게 [헤롱] 디버프를 적용하며, 10000% 피해를 입힙니다.\n[헤롱]은 디저트 타입 스킬에 받는 피해를 15000% 증가시키며 5초간 지속됩니다.\n([헤롱] 효과는 5번까지 중첩됩니다.)",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고유", "버프", "늑대"],
+        "name": "사냥 개시",
+        "image": "assets/skills/mythic/k.6-14.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "사냥이 시작됩니다. 10초간 모든 늑대 스킬 피해량이 10000% 증가하고 체력회복력이 1000% 증가합니다. 사냥개시 효과는 중첩이 가능합니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고양이", "그림자"],
+        "name": "종말의 탄환",
+        "image": "assets/skills/mythic/k.6-15.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "적을 저격해 3000000%의 치명적인 일격을 가합니다. 30% + 14.0%(치명타확률/4)의 확률로 이전 데미지의 10배의 추가 탄환을 발사합니다.\n최대 1발까지 추가로 발사할 수 있습니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["버프", "고래", "기계", "해적"],
+        "name": "고래 총공격",
+        "image": "assets/skills/mythic/k.6-16.png",
+        "grade": "mythic",
+        "cooldown": "60.6초",
+        "effect": "고래들이 등장하고 10초 동안 총공격을 가합니다.\n전설 등급 이하의 고래 타입 스킬 시전 시 강화된 스킬을 추가 사용합니다. 강화된 스킬은 기존 스킬피해의 20000% 추가 피해를 입힙니다.\n\n(일각고래)바다 폭풍: 일각고래가 바다 폭풍을 발생시킵니다. 바다폭풍은 적들을 중심으로 끌어당기며 5000%의 피해를 1초에 3회 입힙니다.\n(범고래)소리파동: 범고래가 울부짗으며 넓은 범위의 적들에게 소리 파동 공격을 발사하여 5000%의 피해를 1초에 1회 입힙니다.\n\n*고래 총공격은 중첩되지 않습니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    },
+    {
+        "id": "mythic_skill",
+        "type": ["고유", "음식", "매콤", "닭"],
+        "name": "불사조 소환",
+        "image": "assets/skills/mythic/k.6-17.png",
+        "grade": "mythic",
+        "cooldown": "18.2초",
+        "effect": "불사조를 소환하여 불을 내뿜습니다. 3초 동안 50000%의 피해를 1초에 5회 입히며 5초간 화상 디버프를 부여합니다. 불사조 소환 시간이 끝나면 불사조가 폭발하며 100000%의 기본 피해와 불사조 소환으로 입힌 피해의 30000% 만큼 고정 피해를 입힙니다. 불사조 소환으로 입힌 피해는 누적됩니다. (고정 피해 제외)\n\n화상: 피해당 상대방이 입히는 피해량이 20% 감소합니다.(디버프는 곱연산으로 중첩됩니다.)\n고정피해: 버프나 디버프의 영향을 받지 않으며, 반드시 명중하는 피해입니다.",
+        "holdEffect": "공격력 증폭 +200%"
+    }
+]
