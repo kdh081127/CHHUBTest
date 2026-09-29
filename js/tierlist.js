@@ -48,7 +48,11 @@ async function fetchTierlistPresets() {
 
 function escapeHtmlTierlist(str) {
     return String(str == null ? "" : str).replace(/[&<>"']/g, (c) => ({
-        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
     }[c]));
 }
 
@@ -57,9 +61,11 @@ function escapeHtmlTierlist(str) {
 function tierEntryName(entry) {
     return typeof entry === "string" ? entry : entry && entry.name;
 }
+
 function tierEntryGrade(entry) {
     return typeof entry === "object" && entry ? entry.grade : null;
 }
+
 function tierEntryLabel(entry) {
     const name = tierEntryName(entry);
     const grade = tierEntryGrade(entry);
@@ -98,9 +104,11 @@ async function initTierlist() {
 function companionImage(name) {
     return tierlistCompanionImageByName[name] || "";
 }
+
 function skillImage(name) {
     return tierlistSkillImageByName[name] || "";
 }
+
 function runeImage(entry) {
     const name = tierEntryName(entry);
     const grade = tierEntryGrade(entry);
@@ -202,6 +210,15 @@ function patchSwitchMainViewForTierlist() {
 
     window.switchMainView = function (view) {
         if (view !== "tierlist") {
+            // main.js의 원래 switchMainView는 "view-tierlist"의 존재를 몰라서
+            // deckbuilder/soulstone으로 돌아갈 때 이 화면을 숨겨주지 않습니다
+            // (그래서 홈으로 돌아왔을 때 하단에 티어리스트가 같이 보이는
+            // 문제가 있었습니다). 항상 먼저 직접 숨겨준 뒤 원래 함수에 맡깁니다.
+            const viewEl = document.getElementById("view-tierlist");
+            if (viewEl) viewEl.classList.add("hidden");
+            const navBtn = document.getElementById("gnb-tierlist");
+            if (navBtn) navBtn.classList.remove("active");
+
             if (original) original(view);
             return;
         }

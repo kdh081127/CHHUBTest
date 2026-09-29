@@ -69,40 +69,63 @@ function findCompanionByName(name) {
 function findSkillByName(name) {
     return (typeof skillData !== "undefined" ? skillData : []).find((s) => s.name === name);
 }
-
-function findRuneByName(name, runeType) {
+// ⚠️ 룬은 이름이 같아도 등급이 다른 버전이 여러 개 있는 경우가 많습니다
+// (예: "생선 증폭"이 uncommon과 legendary에 둘 다 존재). 그래서 룬 항목은
+// 문자열("생선 증폭")뿐 아니라 { "name": "생선 증폭", "grade": "legendary" }
+// 형태도 지원합니다 — grade까지 있으면 정확히 그 등급을 찾고, 문자열만 있으면
+// (레거시 데이터 호환용) 이름이 같은 것 중 처음 찾은 걸로 대체합니다.
+function findRuneByName(entry, runeType) {
     const all = typeof runeData !== "undefined" ? runeData : [];
-    // 1차: runeData는 메인/서브 룬이 한 배열에 합쳐져 있고 type 필드("main-rune"/"sub-rune")로
+    const name = typeof entry === "string" ? entry : entry && entry.name;
+    const grade = typeof entry === "object" && entry ? entry.grade : null;
+
+    if (grade) {
+        const exactWithType = all.find((r) => r.name === name && r.grade === grade && r.type === runeType);
+        if (exactWithType) return exactWithType;
+        const exactNoType = all.find((r) => r.name === name && r.grade === grade);
+        if (exactNoType) return exactNoType;
+        // grade를 지정했는데 그 등급으로는 못 찾으면(오타 등), 이름만으로라도 찾기 전에
+        // 아래 폴백으로 넘어갑니다.
+    }
+
+    // runeData는 메인/서브 룬이 한 배열에 합쳐져 있고 type 필드("main-rune"/"sub-rune")로
     // 구분된다는 전제로 먼저 찾습니다 (rune-m.json/rune-s.json 원본 데이터 기준으로는 맞는
     // 전제입니다).
     const exact = all.find((r) => r.name === name && r.type === runeType);
     if (exact) return exact;
-    // 2차 폴백: 혹시 rune.js가 합치는 과정에서 type 값을 다르게 쓰고 있을 경우를 대비해,
-    // type 필터 없이 이름만으로도 찾습니다(메인룬과 서브룬 이름이 우연히 겹치는 경우는
-    // 거의 없어서 이 정도로도 충분히 안전합니다).
+    // 폴백: 혹시 rune.js가 합치는 과정에서 type 값을 다르게 쓰고 있을 경우를 대비해,
+    // type 필터 없이 이름만으로도 찾습니다.
     return all.find((r) => r.name === name);
 }
 
-// preset.companions/mainRunes/subRunes/skills(이름 배열)을 실제 image 키 배열로 변환.
-// 못 찾은 이름은 unresolved에 모아서 돌려줍니다(오탈자 등으로 조용히 누락되지 않도록).
+// 경고 메시지에 표시할 라벨 ("생선 증폭" 또는 "생선 증폭 (legendary)")
+function runeEntryLabel(entry) {
+    if (typeof entry === "string") return entry;
+    if (entry && entry.name) return entry.grade ? `${entry.name} (${entry.grade})` : entry.name;
+    return String(entry);
+}
+
+// preset.companions/mainRunes/subRunes/skills 배열을 실제 image 키 배열로 변환.
+// 못 찾은 항목은 unresolved에 모아서 돌려줍니다(오탈자 등으로 조용히 누락되지 않도록).
 // 빈 문자열/공백만 있는 항목은 "아직 안 채운 자리"로 보고 조용히 건너뜁니다.
 function resolvePresetBuild(preset) {
     const unresolved = { companions: [], mainRunes: [], subRunes: [], skills: [] };
 
-    const resolveList = (names, finder, category) => {
+    const resolveList = (entries, finder, category, labelFn) => {
         const keys = [];
-        (names || []).forEach((name) => {
+        (entries || []).forEach((entry) => {
+            const name = typeof entry === "string" ? entry : entry && entry.name;
             if (!name || !String(name).trim()) return; // 빈 문자열은 무시 (경고 대상 아님)
-            const item = finder(name);
+            const item = finder(entry);
             if (item) keys.push(item.image);
-            else unresolved[category].push(name);
+            else unresolved[category].push((labelFn || String)(entry));
         });
         return keys;
     };
 
     const companions = resolveList(preset.companions, findCompanionByName, "companions");
-    const mainRunes = resolveList(preset.mainRunes, (n) => findRuneByName(n, "main-rune"), "mainRunes");
-    const subRunes = resolveList(preset.subRunes, (n) => findRuneByName(n, "sub-rune"), "subRunes");
+    const mainRunes = resolveList(preset.mainRunes, (e) => findRuneByName(e, "main-rune"), "mainRunes", runeEntryLabel);
+    const subRunes = resolveList(preset.subRunes, (e) => findRuneByName(e, "sub-rune"), "subRunes", runeEntryLabel);
     const skills = resolveList(preset.skills, findSkillByName, "skills");
 
     const hasAnyUnresolved = Object.values(unresolved).some((arr) => arr.length > 0);
@@ -140,7 +163,7 @@ function renderPresetBuildList() {
                 return `
             <div class="preset-item build-item preset-build-item">
                 <div class="preset-item-info">
-                    <span class="preset-item-name"> ${escapeHtml(p.name)}</span>
+                    <span class="preset-item-name">${escapeHtml(p.name)}</span>
                     <span class="preset-item-date">${escapeHtml(presetSummaryText(p))}</span>
                     ${p.description ? `<span class="preset-item-desc">${escapeHtml(p.description)}</span>` : ""}
                     ${!configured ? `<span class="preset-item-desc preset-build-unconfigured">⚠️ 아직 구성이 입력되지 않았습니다 (data/preset-builds.json)</span>` : ""}

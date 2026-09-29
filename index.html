@@ -29,6 +29,7 @@
         </nav>
 
         <div class="header-user-menu">
+            <div id="profile-status" class="profile-status"></div>
             <div id="auth-status" class="auth-status"></div>
         </div>
     </header>
@@ -75,10 +76,10 @@
                         </div>
                     </section>
 
-                    <!-- TAB 2: 동료 & 가디언 (초기 숨김) -->
+                    <!-- TAB 2: 동료 (초기 숨김) -->
                     <section id="tab-companions" class="tab-content">
                         <h2 class="section-title">
-                            2. 동료, 탈것 및 가디언
+                            2. 동료
                         </h2>
 
                         <!-- 추천 프리셋 빌드: 동료 선택 칸 맨 위에 리스트로 배치 (오른쪽 고정
@@ -107,8 +108,6 @@
                                         </div>
                                         <p class="placeholder-text">이름 옆에 "(고유)"가 표시된 동료는 "고유" 태그가 있는 동료로, 덱 전체에서 1마리만 장착할 수 있습니다.</p>
                                     </div>
-
-                                    <p class="placeholder-text">탈것 및 가디언 설정 영역은 준비 중입니다.</p>
                                 </div>
 
                                 <div class="section-side-panel hidden" data-panel="builds">
@@ -153,7 +152,16 @@
                                         </div>
                                     </div>
 
-                                    <p class="placeholder-text"> 냥혼석 설정 영역은 준비 중입니다.</p>
+                                    <!-- 냥혼석 장착 슬롯 (계정당 1개) -->
+                                    <div class="equip-block">
+                                        <div class="equip-block-head">
+                                            <span class="equip-block-title">냥혼석</span>
+                                        </div>
+                                        <div id="soulstone-equip-slot" class="equip-slot-grid soulstone-equip-slot-grid">
+                                            <!-- js/soulstone-equip.js가 슬롯 1개를 렌더링합니다 -->
+                                        </div>
+                                        <p class="placeholder-text">냥혼석은 동료별로 따로 장착하는 게 아니라, 계정 전체에 1개만 장착할 수 있습니다. 딜량 계산에는 아직 반영되지 않습니다.</p>
+                                    </div>
                                 </div>
 
                                 <div class="section-side-panel hidden" data-panel="builds">
@@ -270,6 +278,29 @@
 
                             <div id="companion-picker-grid" class="companion-picker-grid">
                                 <!-- js/companion-equip.js가 선택 가능한 동료 목록을 렌더링합니다 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 냥혼석 선택 피커 모달 -->
+                    <div id="soulstone-picker-modal" class="modal-backdrop hidden" onclick="if(event.target === this) closeSoulstonePicker()">
+                        <div class="modal-card companion-picker-modal-card">
+                            <div class="modal-header">
+                                <h3 class="modal-title">냥혼석 선택</h3>
+                                <button type="button" class="modal-close-btn" onclick="closeSoulstonePicker()">닫기</button>
+                            </div>
+
+                            <div class="db-filter-bar">
+                                <div class="filter-group">
+                                    <input type="text" id="soulstone-picker-search-input" class="form-input" style="width: 220px;" placeholder="냥혼석 이름으로 검색..." oninput="filterSoulstonePicker('search', this.value)">
+                                </div>
+                                <div class="filter-group" id="soulstone-picker-grade-filter">
+                                    <!-- js/soulstone-equip.js가 등급 버튼을 채웁니다 (등급이 있는 경우에만) -->
+                                </div>
+                            </div>
+
+                            <div id="soulstone-picker-grid" class="companion-picker-grid">
+                                <!-- js/soulstone-equip.js가 선택 가능한 냥혼석 목록을 렌더링합니다 -->
                             </div>
                         </div>
                     </div>
@@ -446,6 +477,30 @@
         </div>
     </div>
 
+    <!-- 프로필(서버 + 닉네임) 설정 모달 -->
+    <div id="profile-modal" class="modal-backdrop hidden" onclick="if(event.target === this) closeProfileModal()">
+        <div class="modal-card auth-modal-card">
+            <div class="modal-header">
+                <h3 class="modal-title">프로필 설정</h3>
+                <button type="button" id="profile-modal-close-btn" class="modal-close-btn" onclick="closeProfileModal()">닫기</button>
+            </div>
+
+            <div class="auth-modal-body">
+                <p class="placeholder-text">서버와 닉네임은 나중에 덱 순위 등에서 다른 유저에게 표시됩니다. 닉네임은 같은 서버 안에서만 중복될 수 없습니다.</p>
+
+                <label class="form-label" for="profile-server-input">서버</label>
+                <input type="text" id="profile-server-input" class="form-input" placeholder="예: 922">
+
+                <label class="form-label" for="profile-nickname-input">닉네임</label>
+                <input type="text" id="profile-nickname-input" class="form-input" placeholder="닉네임 (12자 이하)" maxlength="12">
+
+                <div id="profile-error-msg" class="auth-error-msg"></div>
+
+                <button type="button" id="profile-submit-btn" class="btn-auth-action btn-auth-primary auth-submit-btn" onclick="submitProfileForm()">저장</button>
+            </div>
+        </div>
+    </div>
+
     <!-- 외부 자바스크립트 연결 (순서 준수) -->
     <script src="js/state.js"></script>
     <script src="js/fetcher.js"></script>
@@ -456,11 +511,13 @@
     <script src="js/skill-equip.js"></script>
     <script src="js/soulstone.js"></script>
     <script src="js/rune-equip.js"></script>
+    <script src="js/soulstone-equip.js"></script>
 
-    <!-- Supabase 백엔드 (회원가입/로그인 + 빌드 서버 저장) -->
+    <!-- Supabase 백엔드 (회원가입/로그인 + 프로필 + 빌드 서버 저장) -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
     <script src="js/supabase-client.js"></script>
     <script src="js/auth.js"></script>
+    <script src="js/profile.js"></script>
 
     <script src="js/build.js"></script>
     <script src="js/preset-builds.js"></script>

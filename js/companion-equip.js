@@ -1,12 +1,12 @@
 /**
- * 동료 장착 UI (덱 구성 추천 - "2. 동료, 탈것 및 가디언" 섹션)
+ * 동료 장착 UI (덱 구성 추천 - "2. 동료" 섹션)
  * ----------------------------------------------------------------------
  * - 동료: 최대 6슬롯 (COMPANION_SLOT_COUNT — 실제 게임 슬롯 수를 알려주시면
  *   이 상수만 바꾸면 됩니다. 지금은 임시값입니다.)
  * - userState.equippedCompanions (state.js) 에 저장되며 값은 각 동료의
  *   image 경로(고유 키)입니다.
  * - 같은 동료를 여러 슬롯에 중복 장착할 수 없습니다 (룬 장착과 동일한 관례).
- * - ⚠️ "고유" 동료 1마리 제한 규칙에 대해:
+ * - "고유" 동료 1마리 제한 규칙에 대해:
  *   과거에는 companion.type/types 필드에 "고유" 태그를 넣어 판별했지만,
  *   최종 companion.json(전설/신화만 남긴 버전)에서는 type/size 필드가
  *   모든 동료에서 항상 빈 문자열("")입니다. 즉 지금 데이터만으로는
@@ -87,7 +87,7 @@ function renderCompanionEquipSlots() {
                 <div class="equip-slot filled grade-${companion.grade}" onclick="openCompanionPicker(${i})" ${summary ? `title="${summary.replace(/"/g, "&quot;")}"` : ""}>
                     <button type="button" class="equip-slot-remove" onclick="event.stopPropagation(); unequipCompanionSlot(${i})" title="장착 해제">✕</button>
                     <img src="${companion.image}" alt="${companion.name}" class="equip-slot-img" onerror="this.style.opacity=0.15">
-                    <span class="equip-slot-name">${companion.name}${unique ? " 🔒" : ""}</span>
+                    <span class="equip-slot-name">${companion.name}${unique ? " (고유)" : ""}</span>
                     <span class="companion-type-badge grade-${companion.grade}">${(typeof COMPANION_GRADE_NAMES !== "undefined" && COMPANION_GRADE_NAMES[companion.grade]) || companion.grade}</span>
                 </div>
             `;
@@ -143,7 +143,7 @@ function filterCompanionPicker(category, value) {
     renderCompanionPickerGrid();
 }
 
-// ⚠️ 최종 데이터는 전설(legendary)/신화(mythic) 등급만 존재하므로
+// 최종 데이터는 전설(legendary)/신화(mythic) 등급만 존재하므로
 //    필터 목록에서 uncommon/rare/epic은 제거했습니다.
 //    (나중에 해당 등급 데이터가 다시 추가되면 이 배열에 되돌려 넣으면 됩니다.)
 function renderCompanionPickerGradeFilter() {
@@ -214,7 +214,7 @@ function renderCompanionPickerGrid() {
                     ${summary ? `title="${summary.replace(/"/g, "&quot;")}"` : ""}
                     ${isDisabled ? "" : `onclick="equipCompanionToSlot('${encodeURIComponent(c.image)}')"`}>
                     ${badgeHtml}
-                    <span class="companion-type-badge grade-${c.grade}">${gradeNames[c.grade] || c.grade}${unique ? " 🔒" : ""}</span>
+                    <span class="companion-type-badge grade-${c.grade}">${gradeNames[c.grade] || c.grade}${unique ? " (고유)" : ""}</span>
                     <div class="companion-picker-img-wrapper">
                         <img src="${c.image}" alt="${c.name}" class="companion-picker-icon" loading="lazy" onerror="this.onerror=null;this.style.opacity=0.2;">
                     </div>

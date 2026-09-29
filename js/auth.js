@@ -21,7 +21,11 @@ function getCurrentUser() {
 
 function escapeHtmlAuth(str) {
     return String(str).replace(/[&<>"']/g, (c) => ({
-        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
     }[c]));
 }
 
@@ -51,25 +55,35 @@ async function initAuth() {
 
 /* ==========================================================================
    1. 헤더 상태 표시
+   ----------------------------------------------------------------------
+   이메일은 개인정보라서, 프로필(서버+닉네임, profile.js)이 만들어진
+   뒤에는 헤더에서 이메일을 숨기고 닉네임 배지만 보여줍니다. 프로필을
+   아직 만들지 않은 첫 로그인 상태에서만, 어느 계정으로 로그인했는지
+   확인할 수 있게 잠깐 이메일을 보여줍니다.
    ========================================================================== */
 function renderAuthStatus() {
     const box = document.getElementById("auth-status");
     if (!box) return;
 
     if (!supabaseClient) {
-        box.innerHTML = `<span class="auth-status-warning" title="js/supabase-client.js에 SUPABASE_URL/ANON_KEY를 설정해주세요">⚠️ 백엔드 미설정</span>`;
+        box.innerHTML = `<span class="auth-status-warning" title="js/supabase-client.js에 SUPABASE_URL/ANON_KEY를 설정해주세요">백엔드 미설정</span>`;
         return;
     }
 
     if (currentUser) {
+        const hasProfile = typeof getMyProfile === "function" && !!getMyProfile();
         box.innerHTML = `
-            <span class="auth-status-email">${escapeHtmlAuth(currentUser.email || "")}</span>
+            ${hasProfile ? "" : `<span class="auth-status-email">${escapeHtmlAuth(currentUser.email || "")}</span>`}
             <button type="button" class="btn-auth-action" onclick="signOutUser()">로그아웃</button>
         `;
     } else {
         box.innerHTML = `<button type="button" class="btn-auth-action btn-auth-primary" onclick="openAuthModal('login')">로그인 / 회원가입</button>`;
     }
 }
+
+// profile.js가 내 프로필을 불러오거나 저장할 때마다 "profileChanged"를 쏩니다
+// (profile.js 참고) - 그 시점에 이메일 표시 여부를 다시 계산합니다.
+document.addEventListener("profileChanged", renderAuthStatus);
 
 /* ==========================================================================
    2. 모달 열기/닫기/전환

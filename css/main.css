@@ -1169,6 +1169,11 @@ html {
     width: 100%;
 }
 
+/* 냥혼석은 계정당 1개만 장착하므로, 슬롯이 여러 칸으로 늘어나지 않게 합니다. */
+.soulstone-equip-slot-grid {
+    grid-template-columns: minmax(96px, 160px);
+}
+
 .equip-slot {
     position: relative;
     /* 예전에는 aspect-ratio: 1/1(정사각형 고정) + overflow: hidden 이었는데,
@@ -3714,6 +3719,19 @@ html {
     display: flex;
     align-items: center;
     gap: 0.625rem;
+}
+
+.profile-status {
+    display: flex;
+    align-items: center;
+}
+
+.profile-status:empty {
+    display: none;
+}
+
+.profile-badge {
+    white-space: nowrap;
 }
 
 .auth-status-warning {
