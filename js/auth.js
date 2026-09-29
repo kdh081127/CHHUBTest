@@ -54,6 +54,52 @@ async function initAuth() {
 }
 
 /* ==========================================================================
+   0-1. 로그인이 있어야만 쓸 수 있는 기능 막기
+   ----------------------------------------------------------------------
+   사이트 자체는 로그인 없이도 자유롭게 둘러볼 수 있습니다(탭 이동, 덱
+   티어리스트 구경, 냥혼석 세공 시뮬레이션 등). 다만 아래 목록의 요소를
+   "사용"하려는 클릭(장착 슬롯/피커, 프로필, 딜량 계산·시뮬레이션)만
+   로그인이 없으면 막고 로그인 모달을 띄웁니다. (빌드 저장/불러오기는
+   build.js 안에서 이미 로그인을 요구하고 있어 여기서 다시 막지 않습니다.)
+   main.js/rune-equip.js/skill-equip.js를 이번에도 받지 못해서, 함수
+   이름을 몰라도 되게 컨테이너를 클릭 단계(capture)에서 가로채는 방식을
+   썼습니다.
+   ========================================================================== */
+const AUTH_GATED_CONTAINER_IDS = [
+    "companion-slot-grid",
+    "main-rune-slot-grid",
+    "sub-rune-slot-grid",
+    "skill-slot-grid",
+    "soulstone-equip-slot",
+    "companion-picker-grid",
+    "rune-picker-grid",
+    "skill-picker-grid",
+    "soulstone-picker-grid",
+    "profile-status",
+    "deck-recommend-btn",
+    "deck-simulate-btn",
+];
+
+function isInsideAuthGatedContainer(el) {
+    return AUTH_GATED_CONTAINER_IDS.some((id) => {
+        const container = document.getElementById(id);
+        return container && (container === el || container.contains(el));
+    });
+}
+
+document.addEventListener("click", function(event) {
+    if (!supabaseClient || currentUser) return; // 백엔드 미설정 또는 이미 로그인 -> 그대로 통과
+    if (!isInsideAuthGatedContainer(event.target)) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    openAuthModal("login");
+    const gateMsg = document.getElementById("auth-gate-msg");
+    if (gateMsg) gateMsg.classList.remove("hidden");
+}, true);
+
+/* ==========================================================================
    1. 헤더 상태 표시
    ----------------------------------------------------------------------
    이메일은 개인정보라서, 프로필(서버+닉네임, profile.js)이 만들어진
@@ -98,6 +144,10 @@ function openAuthModal(mode) {
     const passwordInput = document.getElementById("auth-password-input");
     if (emailInput) emailInput.value = "";
     if (passwordInput) passwordInput.value = "";
+    // 기능 사용 시도로 인해 뜬 안내문("로그인 후 이용 가능")은, 헤더의
+    // "로그인 / 회원가입" 버튼처럼 직접 연 경우에는 보이지 않아야 합니다.
+    const gateMsg = document.getElementById("auth-gate-msg");
+    if (gateMsg) gateMsg.classList.add("hidden");
 }
 
 function closeAuthModal() {
@@ -115,14 +165,19 @@ function updateAuthModalMode() {
     const title = document.getElementById("auth-modal-title");
     const submitBtn = document.getElementById("auth-submit-btn");
     const switchLink = document.getElementById("auth-switch-mode-link");
+    const passwordHint = document.getElementById("auth-password-hint");
     if (authMode === "login") {
         if (title) title.textContent = "로그인";
         if (submitBtn) submitBtn.textContent = "로그인";
         if (switchLink) switchLink.textContent = "계정이 없으신가요? 회원가입";
+        // 로그인할 때는 이미 정해진 비밀번호를 입력하는 것뿐이라 규칙 안내가
+        // 필요 없습니다 - 회원가입할 때만 보여줍니다.
+        if (passwordHint) passwordHint.classList.add("hidden");
     } else {
         if (title) title.textContent = "회원가입";
         if (submitBtn) submitBtn.textContent = "회원가입";
         if (switchLink) switchLink.textContent = "이미 계정이 있으신가요? 로그인";
+        if (passwordHint) passwordHint.classList.remove("hidden");
     }
 }
 
@@ -190,7 +245,16 @@ function translateAuthError(err) {
         "Email not confirmed": "이메일 인증이 필요합니다. 받은 편지함을 확인해주세요.",
         "Password should be at least 6 characters": "비밀번호는 6자 이상이어야 합니다.",
     };
-    return known[msg] || msg;
+    if (known[msg]) return known[msg];
+
+    // Supabase 프로젝트의 "비밀번호 강도" 설정(Auth > Policies > Password Requirements)에서
+    // 대/소문자·숫자·특수문자를 모두 요구하도록 되어 있으면 이런 영어 메시지가 그대로
+    // 옵니다. 정확한 문구는 프로젝트 설정에 따라 조금씩 달라질 수 있어서, 메시지
+    // 시작 부분("Password should contain...")으로 감지해서 한국어로 바꿔줍니다.
+    if (/^Password should contain/i.test(msg)) {
+        return "비밀번호는 영문 대문자, 영문 소문자, 숫자, 특수문자를 각각 1개 이상 포함해야 합니다.";
+    }
+    return msg;
 }
 
 async function signOutUser() {

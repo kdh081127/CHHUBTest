@@ -6,7 +6,7 @@
  * 골라 클릭 한 번에 바로 장착하는 기능입니다. (사용자 피드백: "포탄빌드,
  * 할퀴기빌드, 종탄빌드 이런것들 세팅이 바로바로 되게 하는 기능")
  *
- * ⚠️ 실제 빌드 구성(어떤 동료·룬·스킬을 쓰는지)은 게임 메타 지식이 필요해서
+ * 실제 빌드 구성(어떤 동료·룬·스킬을 쓰는지)은 게임 메타 지식이 필요해서
  * 코드만으로는 알 수 없습니다. data/preset-builds.json에 이름만 채워두면
  * 이 파일이 companionData/runeData/skillData에서 이름으로 찾아 적용합니다.
  * ----------------------------------------------------------------------
@@ -69,7 +69,7 @@ function findCompanionByName(name) {
 function findSkillByName(name) {
     return (typeof skillData !== "undefined" ? skillData : []).find((s) => s.name === name);
 }
-// ⚠️ 룬은 이름이 같아도 등급이 다른 버전이 여러 개 있는 경우가 많습니다
+// 룬은 이름이 같아도 등급이 다른 버전이 여러 개 있는 경우가 많습니다
 // (예: "생선 증폭"이 uncommon과 legendary에 둘 다 존재). 그래서 룬 항목은
 // 문자열("생선 증폭")뿐 아니라 { "name": "생선 증폭", "grade": "legendary" }
 // 형태도 지원합니다 — grade까지 있으면 정확히 그 등급을 찾고, 문자열만 있으면
@@ -166,7 +166,7 @@ function renderPresetBuildList() {
                     <span class="preset-item-name">${escapeHtml(p.name)}</span>
                     <span class="preset-item-date">${escapeHtml(presetSummaryText(p))}</span>
                     ${p.description ? `<span class="preset-item-desc">${escapeHtml(p.description)}</span>` : ""}
-                    ${!configured ? `<span class="preset-item-desc preset-build-unconfigured">⚠️ 아직 구성이 입력되지 않았습니다 (data/preset-builds.json)</span>` : ""}
+                    ${!configured ? `<span class="preset-item-desc preset-build-unconfigured">아직 구성이 입력되지 않았습니다 (data/preset-builds.json)</span>` : ""}
                 </div>
                 <div style="display:flex; gap:0.25rem;">
                     <button type="button" class="btn-preset-action btn-preset-save" onclick="applyPresetBuild('${p.id}')" ${configured ? "" : "disabled"}>바로 세팅</button>
@@ -185,6 +185,16 @@ function renderPresetBuildList() {
    refreshSkillEquipUI()의 후보 이름 탐색으로 처리합니다.
    ========================================================================== */
 function applyPresetBuild(id) {
+    // 장착 슬롯을 직접 바꾸는 기능이라, 다른 장착 기능들과 마찬가지로
+    // 로그인 후에만 쓸 수 있게 합니다(백엔드가 아직 설정 안 됐으면 막지 않습니다).
+    const user = typeof getCurrentUser === "function" ? getCurrentUser() : null;
+    if (typeof supabaseClient !== "undefined" && supabaseClient && !user) {
+        if (typeof openAuthModal === "function") openAuthModal("login");
+        const gateMsg = document.getElementById("auth-gate-msg");
+        if (gateMsg) gateMsg.classList.remove("hidden");
+        return;
+    }
+
     const preset = presetBuildsData.find((p) => p.id === id);
     if (!preset || typeof userState === "undefined") return;
 
