@@ -41,6 +41,7 @@ async function loadMyProfile() {
         myProfile = null;
         renderProfileStatus();
         closeProfileModalForce();
+        document.dispatchEvenit(new CustomEvent("profleChanged", { detail: { profile: myProfile } }));
         return;
     }
 
@@ -58,6 +59,8 @@ async function loadMyProfile() {
     }
 
     renderProfileStatus();
+    // auth.js가 이 이벤트를 듣고, 프로필이 있으면 헤더에서 이메일을 숨깁니다.
+    document.dispatchEvent(new CustomEvent("profileChanged", { detail: { profile: myProfile } }));
 
     // 로그인은 했는데 프로필이 아직 없으면(첫 로그인) 바로 설정하도록 안내합니다.
     if (user && !myProfile) {
